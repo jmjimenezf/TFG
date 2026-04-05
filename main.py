@@ -6,13 +6,14 @@ from huggingface_hub import login
 from huggingface_hub import whoami
 from datasets import load_dataset
 from datetime import datetime
+import re
 
 debug = False
 log_messages = []
 timestamp_started = datetime.now()
 timestamp_finished = datetime.now()
 results_folder = "results"
-experiment_folder = ""
+
 os.makedirs(results_folder, exist_ok=True)
 
 # función para loguear mensajes con timestamp
@@ -69,12 +70,6 @@ def sentiment_analysis(config_file="config_SA.yaml"):
     if debug:  
         log(f"First 5 samples: {ds[:5]}")
     
-    # Todo: Process each LLM
-    # https://github.com/ollama/ollama-python
-    # Iterate over the dataset and send requests to each LLM, log the responses individually per LLM
-    # generating a json with id of the sample, the text, the response, and the golden standard label from dataset.
-    # connect to ollama with generate function
-    
     for llm in llms:
         llm_responses = []
         temperature = llm.get("temperature", "default")
@@ -122,9 +117,14 @@ def sentiment_analysis(config_file="config_SA.yaml"):
     minutes, seconds = divmod(duration_seconds, 60)
     log(f"Processing finished at {timestamp} it took {minutes} minutes and {seconds} seconds.")
     #save log messages to a file inside the folder created previously in results, with the name of the experiment and the date, like date_experiment.log
+    
     log_file = f"{experiment_folder}/{timestamp_started.strftime('%Y%m%d')}_{config['experiment_name']}.log"
     with open(log_file, 'w', encoding='utf-8') as f:
         f.write("\n".join(log_messages))    
+
+#Function to detect feelings, to be implemented later
+#def feelings_analysis():
+    
 
 # main.py
 # parameters to launch sentiment analysis or feelings analysis

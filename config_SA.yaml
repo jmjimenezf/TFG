@@ -5,10 +5,14 @@ dataset:
   split: "train[:10]"
 
 llms:
-  - model: "llama3.2:latest"
-    temperature: 0.3
-  - model: "mistral:latest"
-    temperature: 0.3
+  - model: "tinyllama:1.1b-chat-v1-q4_K_M"
+    temperature: 0
+  - model: "gemma2:9b-instruct-q4_K_M"
+    temperature: 0
+  - model: "mistral:7b-instruct-q4_K_M"
+    temperature: 0
+  - model: "llama3.1:8b-instruct-q4_K_M"
+    temperature: 0
 # Menos creatividad, más preciso
 
 context:

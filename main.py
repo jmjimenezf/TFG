@@ -127,13 +127,32 @@ def sentiment_analysis(config_file="config_SA.yaml"):
 # Function to calculate statistics, f1score, accuracy, precision, recall, time taken.
 # From the json file with the responses, calculate the statistics and save them in a new json file with the same name but with _stats.json at the end, like date_experiment_modelname_stats.json
 # Iterate all the json files in the results folder, and calculate the statistics for each one of them, and save them in a new json file with the same name but with _stats.json at the end, like date_experiment_modelname_stats.json
+# The failed responses are logged to a separate file with the name date_experiment_modelname_failed.json, containing the id, text, response, golden_standard and error message for each failed response.
 def calculate_statistics(response_dir):
     for responses_file in glob.glob(f"{response_dir}/*_testing_*.json"):
         if responses_file.endswith('_stats.json'):
             continue
         with open(responses_file, 'r', encoding='utf-8') as f:
             responses = json.load(f)
-        # Calculate statistics
+        
+        failed_responses = []
+        for r in responses:
+            if str(r['response']) != str(r['golden_standard']):
+                failed_responses.append({
+                    "id": r['id'],
+                    "text": r['text'],
+                    "response": r['response'],
+                    "golden_standard": r['golden_standard'],
+                    "error_message": "Response does not match golden standard"
+                })
+
+        if failed_responses:
+            failed_output_file = responses_file.replace('.json', '_failed.json')
+            with open(failed_output_file, 'w', encoding='utf-8') as f:
+                json.dump(failed_responses, f, indent=4, ensure_ascii=False)
+            log(f"Failed responses saved to {failed_output_file}")
+
+        # Calculate statistics and log failed responses
         true_positives = sum(1 for r in responses if r['response'] == '1' and r['golden_standard'] == 1)
         true_negatives = sum(1 for r in responses if r['response'] == '0' and r['golden_standard'] == 0)
         false_positives = sum(1 for r in responses if r['response'] == '1' and r['golden_standard'] == 0)

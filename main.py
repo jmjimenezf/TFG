@@ -125,21 +125,24 @@ def sentiment_analysis(config_file="config_SA.yaml"):
         f.write("\n".join(log_messages))
     #If gen_stats is True, calculate statistics
     if calc_stats:
+        log("Calculating statistics...")
         calculate_statistics(experiment_folder)
+        log("Calculating failed response counts...")
+        get_failed_count(experiment_folder)
 
 # Function to calculate statistics, f1score, accuracy, precision, recall, time taken.
 # From the json file with the responses, calculate the statistics and save them in a new json file with the same name but with _stats.json at the end, like date_experiment_modelname_stats.json
 # Iterate all the json files in the results folder, and calculate the statistics for each one of them, and save them in a new json file with the same name but with _stats.json at the end, like date_experiment_modelname_stats.json
 # The failed responses are logged to a separate file with the name date_experiment_modelname_failed.json, containing the id, text, response, golden_standard and error message for each failed response.
 def calculate_statistics(response_dir):
-    for responses_file in glob.glob(f"{response_dir}/*_testing_*.json"):
+    for responses_file in glob.glob(f"{response_dir}/*run*.json"):
         if responses_file.endswith('_stats.json'):
             continue
         with open(responses_file, 'r', encoding='utf-8') as f:
             responses = json.load(f)
         if responses_file.endswith('_failed.json'):
             continue
-        if responses_file.endswith('_testing.log'):
+        if responses_file.endswith('.log'):
             continue
         failed_responses = []
         for r in responses:
@@ -187,6 +190,47 @@ def calculate_statistics(response_dir):
             json.dump(stats, f, indent=4, ensure_ascii=False)
         log(f"Statistics calculated and saved to {stats_file}")
 
+# Function to get the index of failed responses that are repeated in all models, to identify which samples are more diffucult to identify
+# Keep id and strings and count of failures for each sample, and sort them by the number of failures, to identify which samples are more difficult to identify
+# Include a summary of the failed samples: xx samples failed at least once, xx samples failed more than 3 times, etc.
+def get_failed_count(response_dir):
+    failed_counts = {}
+    for failed_file in glob.glob(f"{response_dir}/*_failed.json"):
+        with open(failed_file, 'r', encoding='utf-8') as f:
+            failed_responses = json.load(f)
+        for r in failed_responses:
+            idx = r['id']
+            if idx not in failed_counts:
+                failed_counts[idx] = {
+                    "count": 0,
+                    "text": r['text'],
+                    "golden_standard": r['golden_standard']
+                }
+            failed_counts[idx]["count"] += 1
+    # Sort the failed counts by the number of failures
+    sorted_failed_counts = dict(sorted(failed_counts.items(), key=lambda item: item[1]["count"], reverse=True))
+    # Log summary of failed samples to the file
+    total_failed_samples = len(failed_counts)
+    failed_once = sum(1 for r in failed_counts.values() if r["count"] == 1)
+    failed_twice = sum(1 for r in failed_counts.values() if r["count"] == 2)
+    failed_more_than_2 = sum(1 for r in failed_counts.values() if r["count"] > 2)
+    
+    output_data = {
+        "summary": {
+            "total_failed_samples": total_failed_samples,
+            "failed_once": failed_once,
+            "failed_twice": failed_twice,
+            "failed_three_or_more": failed_more_than_2
+        },
+        "failed_samples": sorted_failed_counts
+    }
+
+    #concat failed_summary and sorted_failed_counts and save to a json file
+    failed_count_file = f"{response_dir}/failed_matchs.json"
+    with open(failed_count_file, 'w', encoding='utf-8') as f:
+        json.dump(output_data, f, indent=4, ensure_ascii=False)
+    log(f"Failed counts saved to {failed_count_file}")
+
 #Function to detect feelings, to be implemented later
 #def feelings_analysis(): 
 
@@ -216,7 +260,12 @@ def main():
             calculate_statistics(response_dir)
         else:
             print("Please specify the directory containing the response json files after --calculate-stats.")
-
+    elif len(os.sys.argv) > 1 and os.sys.argv[1] == "--get-failed-count":
+        if len(os.sys.argv) > 2:
+            response_dir = os.sys.argv[2]
+            get_failed_count(response_dir)
+        else:
+            print("Please specify the directory containing the response json files after --get-failed-count.")
     else:
         print("No analysis type specified. Use --analysis followed by 'sentiment' or 'feelings', or use --calculate-stats followed by the directory containing response json files.")
 

@@ -1,8 +1,9 @@
 #Archivo Configuración para Sentiment Analysis
-experiment_name: "testing"
+# Keep run in name for statistics calculation
+experiment_name: "run_SA_1"
 dataset:
   name: "stanfordnlp/sst2"
-  split: "train[:100]"
+  split: "train[:1000]"
 
 llms:
 # - model: "tinyllama:1.1b-chat-v1-q4_K_M"

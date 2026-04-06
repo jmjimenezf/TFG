@@ -74,7 +74,7 @@ def sentiment_analysis(config_file="config_SA.yaml"):
         llm_responses = []
         temperature = llm.get("temperature", "default")
         for sample in ds:
-            log(f"Processing LLM: {llm['model']} with temperature {llm.get('temperature', 'default')}")
+            log(f"Processing LLM: {llm['model']} with temperature {llm.get('temperature', 'default')}, prompt={prompt.replace('{text}', sample['sentence'])}")
             response = ollama.generate(
                 model=llm['model'],
                 prompt=prompt.replace("{text}", sample['sentence']),
@@ -87,13 +87,14 @@ def sentiment_analysis(config_file="config_SA.yaml"):
             if debug:
                 log(f"Prompt: {prompt}. Raw response: {response}")
             #check if response is 1 or 0, if not, stop and log an error
-            if response['response'] not in ['0', '1']:
+            model_response = response['response'].strip()
+            if model_response not in ['0', '1']:
                 log(f"Error: Unexpected response '{response['response']}' for sample {sample['idx']}")
                 continue
             llm_responses.append({
                 "id": sample['idx'],
                 "text": sample['sentence'],
-                "response": response['response'],
+                "response": model_response,
                 "golden_standard": sample['label']
             })
 # To do implement statistics of the responses, like how many times it was correct, how many times it was wrong, etc. and log it

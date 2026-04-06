@@ -19,7 +19,7 @@ context:
   - "You are a sentiment analysis model. Analyze the sentiment of the following text, respond only with 1 if it is positive , 0 if it is negative and nothing else. Do not provide any explanation, only the sentiment label."
 
 prompt:
-  - "Analyze the sentiment of the following text: {text}"
+  - "Analyze the sentiment of the following text, answer only with 1 if it is positive , 0 if it is negative and nothing else: {text}"
 
 evaluation:
   metrics: ["exact_match"]

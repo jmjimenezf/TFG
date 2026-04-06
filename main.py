@@ -6,10 +6,11 @@ from huggingface_hub import login
 from huggingface_hub import whoami
 from datasets import load_dataset
 from datetime import datetime
-import re
 import glob
 
+# Global Vars
 debug = False
+calc_stats = True
 log_messages = []
 timestamp_started = datetime.now()
 timestamp_finished = datetime.now()
@@ -98,8 +99,6 @@ def sentiment_analysis(config_file="config_SA.yaml"):
                 "response": model_response,
                 "golden_standard": sample['label']
             })
-# To do implement statistics of the responses, like how many times it was correct, how many times it was wrong, etc. and log it
- 
         # Save responses to a json file (only the fields we need)
         # create folder with experiment name and date inside results folder, and save the json file there
         experiment_folder = f"{results_folder}/{timestamp_started.strftime('%Y%m%d_%H%M%S')}_{config['experiment_name']}"
@@ -122,7 +121,10 @@ def sentiment_analysis(config_file="config_SA.yaml"):
     
     log_file = f"{experiment_folder}/{timestamp_started.strftime('%Y%m%d')}_{config['experiment_name']}.log"
     with open(log_file, 'w', encoding='utf-8') as f:
-        f.write("\n".join(log_messages))    
+        f.write("\n".join(log_messages))
+    #If gen_stats is True, calculate statistics
+    if calc_stats:
+        calculate_statistics(experiment_folder)
 
 # Function to calculate statistics, f1score, accuracy, precision, recall, time taken.
 # From the json file with the responses, calculate the statistics and save them in a new json file with the same name but with _stats.json at the end, like date_experiment_modelname_stats.json

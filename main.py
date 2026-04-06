@@ -7,6 +7,7 @@ from huggingface_hub import whoami
 from datasets import load_dataset
 from datetime import datetime
 import re
+import glob
 
 debug = False
 log_messages = []
@@ -123,15 +124,53 @@ def sentiment_analysis(config_file="config_SA.yaml"):
     with open(log_file, 'w', encoding='utf-8') as f:
         f.write("\n".join(log_messages))    
 
+# Function to calculate statistics, f1score, accuracy, precision, recall, time taken.
+# From the json file with the responses, calculate the statistics and save them in a new json file with the same name but with _stats.json at the end, like date_experiment_modelname_stats.json
+# Iterate all the json files in the results folder, and calculate the statistics for each one of them, and save them in a new json file with the same name but with _stats.json at the end, like date_experiment_modelname_stats.json
+def calculate_statistics(response_dir):
+    for responses_file in glob.glob(f"{response_dir}/*_testing_*.json"):
+        if responses_file.endswith('_stats.json'):
+            continue
+        with open(responses_file, 'r', encoding='utf-8') as f:
+            responses = json.load(f)
+        # Calculate statistics
+        true_positives = sum(1 for r in responses if r['response'] == '1' and r['golden_standard'] == 1)
+        true_negatives = sum(1 for r in responses if r['response'] == '0' and r['golden_standard'] == 0)
+        false_positives = sum(1 for r in responses if r['response'] == '1' and r['golden_standard'] == 0)
+        false_negatives = sum(1 for r in responses if r['response'] == '0' and r['golden_standard'] == 1)
+
+        accuracy = (true_positives + true_negatives) / len(responses) if responses else 0
+        precision = true_positives / (true_positives + false_positives) if (true_positives + false_positives) > 0 else 0
+        recall = true_positives / (true_positives + false_negatives) if (true_positives + false_negatives) > 0 else 0
+        f1_score = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
+        
+        stats = {
+            "accuracy": accuracy,
+            "precision": precision,
+            "recall": recall,
+            "f1_score": f1_score,
+            "total_samples": len(responses),
+            "true_positives": true_positives,
+            "true_negatives": true_negatives,
+            "false_positives": false_positives,
+            "false_negatives": false_negatives
+        }
+
+        # Save statistics to a new json file
+        stats_file = responses_file.replace('.json', '_stats.json')
+        with open(stats_file, 'w', encoding='utf-8') as f:
+            json.dump(stats, f, indent=4, ensure_ascii=False)
+        log(f"Statistics calculated and saved to {stats_file}")
+
 #Function to detect feelings, to be implemented later
-#def feelings_analysis():
-    
+#def feelings_analysis(): 
 
 # main.py
 # parameters to launch sentiment analysis or feelings analysis
 # --analysis sentiment (To assess sentiment)
 # --analysis feelings (To detect feelings)
 # --config config_SA.yaml (To specify the configuration file, default is config_SA.yaml)
+# --generate-stats dir
 def main():
     log(f"Script started at {timestamp_started.strftime('%Y-%m-%d %H:%M:%S')}")
     connect_hf()
@@ -146,6 +185,12 @@ def main():
                 print("Unknown analysis type. Use 'sentiment' or 'feelings'.")
         else:
             print("Please specify the analysis type after --analysis.")
+    elif len(os.sys.argv) > 1 and os.sys.argv[1] == "--generate-stats":
+        if len(os.sys.argv) > 2:
+            response_dir = os.sys.argv[2]
+            calculate_statistics(response_dir)
+        else:
+            print("Please specify the directory containing the response json files after --generate-stats.")
 
 if __name__ == "__main__":
     main()

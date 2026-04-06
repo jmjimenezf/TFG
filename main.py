@@ -171,8 +171,9 @@ def calculate_statistics(response_dir):
         precision = true_positives / (true_positives + false_positives) if (true_positives + false_positives) > 0 else 0
         recall = true_positives / (true_positives + false_negatives) if (true_positives + false_negatives) > 0 else 0
         f1_score = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
-        
+        model = os.path.basename(responses_file).split('_')[2]  # Extract model name from file name
         stats = {
+            "model": model,
             "accuracy": accuracy,
             "precision": precision,
             "recall": recall,

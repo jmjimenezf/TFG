@@ -109,6 +109,7 @@ def sentiment_analysis(config_file="config_SA.yaml"):
             json.dump(llm_responses, f, indent=4, ensure_ascii=False)
         timestamp_finished = datetime.now()
         log(f"Experiment '{config['experiment_name']}' with model '{llm['model']}' completed at {timestamp_finished.strftime('%Y-%m-%d %H:%M:%S')}.")
+        log(f"Time taken for model '{llm['model']}': {(timestamp_finished - timestamp_started).total_seconds()} seconds.")
         log(f"Responses saved to {output_file}")
 
     #End of processing, log the duration
@@ -136,7 +137,10 @@ def calculate_statistics(response_dir):
             continue
         with open(responses_file, 'r', encoding='utf-8') as f:
             responses = json.load(f)
-        
+        if responses_file.endswith('_failed.json'):
+            continue
+        if responses_file.endswith('_testing.log'):
+            continue
         failed_responses = []
         for r in responses:
             if str(r['response']) != str(r['golden_standard']):
@@ -191,7 +195,7 @@ def calculate_statistics(response_dir):
 # --analysis sentiment (To assess sentiment)
 # --analysis feelings (To detect feelings)
 # --config config_SA.yaml (To specify the configuration file, default is config_SA.yaml)
-# --generate-stats dir
+# --generate-stats <directory> (To generate statistics given a directory)
 def main():
     log(f"Script started at {timestamp_started.strftime('%Y-%m-%d %H:%M:%S')}")
     connect_hf()
@@ -206,12 +210,15 @@ def main():
                 print("Unknown analysis type. Use 'sentiment' or 'feelings'.")
         else:
             print("Please specify the analysis type after --analysis.")
-    elif len(os.sys.argv) > 1 and os.sys.argv[1] == "--generate-stats":
+    elif len(os.sys.argv) > 1 and os.sys.argv[1] == "--calculate-stats":
         if len(os.sys.argv) > 2:
             response_dir = os.sys.argv[2]
             calculate_statistics(response_dir)
         else:
-            print("Please specify the directory containing the response json files after --generate-stats.")
+            print("Please specify the directory containing the response json files after --calculate-stats.")
+
+    else:
+        print("No analysis type specified. Use --analysis followed by 'sentiment' or 'feelings', or use --calculate-stats followed by the directory containing response json files.")
 
 if __name__ == "__main__":
     main()

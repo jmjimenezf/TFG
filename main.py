@@ -18,14 +18,14 @@ results_folder = "results"
 
 os.makedirs(results_folder, exist_ok=True)
 
-# función para loguear mensajes con timestamp
+# Function to log messages
 def log(msg):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     formatted = f"[{timestamp}] {msg}"
     log_messages.append(formatted)
     print(formatted)
 
-# Función para conectar a Hugging Face
+# Function to connect to Hugging face, HF_TOKEN needs to be set in environment variables
 def connect_hf():
     # hf_hub login
     try:
@@ -40,11 +40,10 @@ def connect_hf():
         exit()
 
 # Sentiment Analysis
-# Carga de configuración desde config_SA.yaml
-# Carga del dataset especificado en la configuración
-# Por cada llm especificado en la configuración, realizar el análisis de sentimiento utilizando el prompt definido en la configuración
-# Crear un archivo de log por cada llm usado, con la fecha, experimento, y resultados obtenidos para luego comparar con el golden standard
-# date_experiment_llm.log, añadir el archivo al log general
+# Load config from config_SA.yaml
+# Load configuration values from yaml file, including dataset name and split, context, prompt, llms to use and their parameters, and evaluation metrics
+# For each llm runs the sentiment analysis using the prompt defined in the configuration
+# It creates a log file per llm with date, run and results
 
 def sentiment_analysis(config_file="config_SA.yaml"):
     

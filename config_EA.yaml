@@ -1,0 +1,23 @@
+#Config file for Emotion Analysis
+# Keep run in name for statistics calculation do not use _underscores_.
+experiment_name: "runEA1Test"
+dataset:
+  name: "corpus/gne_ekman.jsonl"
+  split: "10"
+
+llms:
+ # - model: "tinyllama:1.1b-chat-v1-q4_K_M"
+ #   temperature: 0
+  - model: "gemma2:9b-instruct-q4_K_M"
+    temperature: 0
+  - model: "mistral:7b-instruct-q4_K_M"
+    temperature: 0
+  - model: "llama3.1:8b-instruct-q4_K_M"
+    temperature: 0
+# Menos creatividad, más preciso
+
+context:
+  - "You are a Emotion analysis model. Analyze the emotion behind the text provided, respond with only one emotion from the subset of Ekman emotions. Just one word. Do not provide any explanation, only the Emotion label."
+
+prompt:
+  - "Analyze the emotion of the following text, answer with only one of the Ekman emotions (joy, sadness, anger, fear, disgust, surprise) and nothing else: {text}"

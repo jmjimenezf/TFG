@@ -8,6 +8,8 @@ from datasets import load_dataset
 from datetime import datetime
 import glob
 
+#Todo: change calculate_statistics and get_failed_count to SA and create EA versions. 
+
 # Global Vars
 debug = False
 calc_stats = True
@@ -231,13 +233,89 @@ def get_failed_count(response_dir):
         json.dump(output_data, f, indent=4, ensure_ascii=False)
     log(f"Failed counts saved to {failed_count_file}")
 
-#Function to detect feelings, to be implemented later
-#def feelings_analysis(): 
+#Function to detect emotions
+def emotions_analysis(config_file="config_EA.yaml"):
+    log(f"emotions analysis started with config file: {config_file}")
+    try:
+        with open(config_file, 'r') as f:
+            config = yaml.safe_load(f)
+    except Exception as e:
+        log(f"Error loading config file: {e}")
+        return
+    dataset_name = config.get("dataset", {}).get("name")
+    dataset_split = config.get("dataset", {}).get("split")
+    context = config.get("context", "")
+    prompt = config.get("prompt", [context])[0]  # Use the first prompt from config, or context if no prompts defined
+    llms = config.get("llms", [])
+    log(f"Configuration loaded: dataset={dataset_name}, split={dataset_split}, context={context}, llms={llms}")
 
+    # create folder with experiment name and date inside results folder
+    experiment_folder = f"{results_folder}/{timestamp_started.strftime('%Y%m%d_%H%M%S')}_{config['experiment_name']}"
+    os.makedirs(experiment_folder, exist_ok=True)
+
+    for llm in llms:
+        model = llm.get("model")
+        temperature = llm.get("temperature", 0)
+        log(f"Starting analysis with model: {model}, temperature: {temperature}")
+        # Load dataset
+        try:
+            with open(dataset_name, 'r', encoding='utf-8') as f:
+                ds = [json.loads(line) for line in f]
+            if dataset_split:
+                ds = ds[:int(dataset_split)]
+        except Exception as e:
+            log(f"Error loading dataset from file: {e}")
+            continue
+        log(f"Dataset {dataset_name} loaded successfully! Using {len(ds)} samples.")
+        if debug:
+            log(f"First 5 samples: {ds[:5]}")
+        llm_responses = []
+        for sample in ds:
+            log(f"Processing sample id: {sample['id']} with text: {sample['headline']}")
+            response = ollama.generate(
+                model=model,
+                prompt=prompt.replace("{text}", sample['headline']),
+                system=context[0],
+                options={
+                    "temperature": temperature
+            }
+            )
+            print(response['response'])
+            if debug:
+                log(f"Prompt: {prompt}. Raw response: {response}")
+            llm_responses.append({
+                "id": sample['id'],
+                "text": sample['headline'],
+                "response": response['response'].strip(),
+                "golden_standard": sample['gold']
+            })
+        # Save responses to a json file (only the fields we need)
+        #add date to the output file name, like date_experiment_modelname.json
+        output_file = f"{experiment_folder}/{timestamp_started.strftime('%Y%m%d')}_{config['experiment_name']}_{model.replace(' ', '_')}.json"
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(llm_responses, f, indent=4, ensure_ascii=False)
+        timestamp_finished = datetime.now()
+        log(f"Experiment '{config['experiment_name']}' with model '{model}' completed at {timestamp_finished.strftime('%Y-%m-%d %H:%M:%S')}.")
+        log(f"Time taken for model '{model}': {(timestamp_finished - timestamp_started).total_seconds()} seconds.")
+        log(f"Responses saved to {output_file}")
+    #End of processing, log the duration
+    timestamp_finished = datetime.now()
+    timestamp = timestamp_finished.strftime("%Y-%m-%d %H:%M:%S")
+    duration_seconds = (timestamp_finished - timestamp_started).total_seconds()
+    minutes, seconds = divmod(duration_seconds, 60)
+    log(f"Processing finished at {timestamp} it took {minutes} minutes and {seconds} seconds.") 
+    #save log messages to a file inside the folder created previously in results, with the name of the experiment and the date, like date_experiment.log
+    log_file = f"{experiment_folder}/{timestamp_started.strftime('%Y%m%d')}_{config['experiment_name']}.log"
+    with open(log_file, 'w', encoding='utf-8') as f:
+        f.write("\n".join(log_messages))
+    #If gen_stats is True, calculate statistics
+    if calc_stats:
+        pass
+    
 # main.py
-# parameters to launch sentiment analysis or feelings analysis
+# parameters to launch sentiment analysis or emotions analysis
 # --analysis sentiment (To assess sentiment)
-# --analysis feelings (To detect feelings)
+# --analysis emotions (To detect emotions)
 # --config config_SA.yaml (To specify the configuration file, default is config_SA.yaml)
 # --generate-stats <directory> (To generate statistics given a directory)
 def main():
@@ -248,10 +326,10 @@ def main():
             analysis_type = os.sys.argv[2]
             if analysis_type == "sentiment":
                 sentiment_analysis(os.sys.argv[3] if len(os.sys.argv) > 3 else "config_SA.yaml")
-            elif analysis_type == "feelings":
-                print("Feelings analysis not implemented yet.")
+            elif analysis_type == "emotions":
+                emotions_analysis(os.sys.argv[3] if len(os.sys.argv) > 3 else "config_EA.yaml")
             else:
-                print("Unknown analysis type. Use 'sentiment' or 'feelings'.")
+                print("Unknown analysis type. Use 'sentiment' or 'emotions'.")
         else:
             print("Please specify the analysis type after --analysis.")
     elif len(os.sys.argv) > 1 and os.sys.argv[1] == "--calculate-stats":
@@ -267,7 +345,7 @@ def main():
         else:
             print("Please specify the directory containing the response json files after --get-failed-count.")
     else:
-        print("No analysis type specified. Use --analysis followed by 'sentiment' or 'feelings', or use --calculate-stats followed by the directory containing response json files.")
+        print("No analysis type specified. Use --analysis followed by 'sentiment' or 'emotions', or use --calculate-stats followed by the directory containing response json files.")
 
 if __name__ == "__main__":
     main()

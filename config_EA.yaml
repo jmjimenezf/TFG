@@ -3,7 +3,7 @@
 experiment_name: "runEA1Test"
 dataset:
   name: "corpus/gne_ekman.jsonl"
-  split: "10"
+  split: "1000"
 
 llms:
  # - model: "tinyllama:1.1b-chat-v1-q4_K_M"

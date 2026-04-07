@@ -8,8 +8,6 @@ from datasets import load_dataset
 from datetime import datetime
 import glob
 
-#Todo: change calculate_statistics and get_failed_count to SA and create EA versions. 
-
 # Global Vars
 debug = False
 calc_stats = True
@@ -127,15 +125,15 @@ def sentiment_analysis(config_file="config_SA.yaml"):
     #If gen_stats is True, calculate statistics
     if calc_stats:
         log("Calculating statistics...")
-        calculate_statistics(experiment_folder)
+        calculate_statisticsSA(experiment_folder)
         log("Calculating failed response counts...")
-        get_failed_count(experiment_folder)
+        calculate_statisticsSA(experiment_folder)
 
 # Function to calculate statistics, f1score, accuracy, precision, recall, time taken.
 # From the json file with the responses, calculate the statistics and save them in a new json file with the same name but with _stats.json at the end, like date_experiment_modelname_stats.json
 # Iterate all the json files in the results folder, and calculate the statistics for each one of them, and save them in a new json file with the same name but with _stats.json at the end, like date_experiment_modelname_stats.json
 # The failed responses are logged to a separate file with the name date_experiment_modelname_failed.json, containing the id, text, response, golden_standard and error message for each failed response.
-def calculate_statistics(response_dir):
+def calculate_statisticsSA(response_dir):
     for responses_file in glob.glob(f"{response_dir}/*run*.json"):
         if responses_file.endswith('_stats.json'):
             continue
@@ -195,7 +193,7 @@ def calculate_statistics(response_dir):
 # Function to get the index of failed responses that are repeated in all models, to identify which samples are more diffucult to identify
 # Keep id and strings and count of failures for each sample, and sort them by the number of failures, to identify which samples are more difficult to identify
 # Include a summary of the failed samples: xx samples failed at least once, xx samples failed more than 3 times, etc.
-def get_failed_count(response_dir):
+def get_failed_countSA(response_dir):
     failed_counts = {}
     for failed_file in glob.glob(f"{response_dir}/*_failed.json"):
         with open(failed_file, 'r', encoding='utf-8') as f:
@@ -310,7 +308,83 @@ def emotions_analysis(config_file="config_EA.yaml"):
         f.write("\n".join(log_messages))
     #If gen_stats is True, calculate statistics
     if calc_stats:
-        pass
+        calculate_statisticsEA(experiment_folder)
+
+
+def calculate_statisticsEA(response_dir):
+    # This function will be similar to calculate_statisticsSA but adapted to the emotion analysis task,
+    # where we will calculate the accuracy for each emotion, and the overall accuracy, and save them in a new json file with the same name but with _stats.json at the end, like date_experiment_modelname_stats.json
+    # Global accuracy will be calculated as the number of correct responses divided by the total number of samples, and emotion accuracy will be calculated as the number of correct responses for each emotion divided by the total number of samples for that emotion.
+    # macro f1 and weighted f1
+    # Per emotion f1, precision and recall, and overall f1, precision and recall
+    for responses_file in glob.glob(f"{response_dir}/*run*.json"):
+        if responses_file.endswith('_stats.json') or responses_file.endswith('_failed.json') or responses_file.endswith('.log'):
+            continue
+
+        with open(responses_file, 'r', encoding='utf-8') as f:
+            responses = json.load(f)
+
+        y_true = [r['golden_standard'] for r in responses]
+        y_pred = [r['response'] for r in responses]
+        
+        labels = sorted(list(set(y_true)))
+        
+        per_emotion_stats = {}
+        total_samples = len(y_true)
+        total_correct = 0
+        
+        for label in labels:
+            tp = sum(1 for true, pred in zip(y_true, y_pred) if true == label and pred == label)
+            fp = sum(1 for true, pred in zip(y_true, y_pred) if true != label and pred == label)
+            fn = sum(1 for true, pred in zip(y_true, y_pred) if true == label and pred != label)
+            
+            precision = tp / (tp + fp) if (tp + fp) > 0 else 0
+            recall = tp / (tp + fn) if (tp + fn) > 0 else 0
+            f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
+            
+            support = y_true.count(label)
+            
+            per_emotion_stats[label] = {
+                "precision": precision,
+                "recall": recall,
+                "f1-score": f1,
+                "support": support
+            }
+            total_correct += tp
+
+        overall_accuracy = total_correct / total_samples if total_samples > 0 else 0
+        
+        # Macro and Weighted Averages
+        macro_precision = sum(stats['precision'] for stats in per_emotion_stats.values()) / len(labels)
+        macro_recall = sum(stats['recall'] for stats in per_emotion_stats.values()) / len(labels)
+        macro_f1 = sum(stats['f1-score'] for stats in per_emotion_stats.values()) / len(labels)
+        
+        weighted_precision = sum(stats['precision'] * stats['support'] for stats in per_emotion_stats.values()) / total_samples
+        weighted_recall = sum(stats['recall'] * stats['support'] for stats in per_emotion_stats.values()) / total_samples
+        weighted_f1 = sum(stats['f1-score'] * stats['support'] for stats in per_emotion_stats.values()) / total_samples
+
+        stats = {
+            "model": os.path.basename(responses_file).split('_')[2],
+            "overall_accuracy": overall_accuracy,
+            "macro_avg": {
+                "precision": macro_precision,
+                "recall": macro_recall,
+                "f1-score": macro_f1
+            },
+            "weighted_avg": {
+                "precision": weighted_precision,
+                "recall": weighted_recall,
+                "f1-score": weighted_f1
+            },
+            "per_emotion_stats": per_emotion_stats,
+            "total_samples": total_samples
+        }
+
+        # Save statistics to a new json file
+        stats_file = responses_file.replace('.json', '_stats.json')
+        with open(stats_file, 'w', encoding='utf-8') as f:
+            json.dump(stats, f, indent=4, ensure_ascii=False)
+        log(f"Statistics calculated and saved to {stats_file}")
     
 # main.py
 # parameters to launch sentiment analysis or emotions analysis
@@ -332,20 +406,26 @@ def main():
                 print("Unknown analysis type. Use 'sentiment' or 'emotions'.")
         else:
             print("Please specify the analysis type after --analysis.")
-    elif len(os.sys.argv) > 1 and os.sys.argv[1] == "--calculate-stats":
+    elif len(os.sys.argv) > 1 and os.sys.argv[1] == "--calculate-statsSA":
         if len(os.sys.argv) > 2:
             response_dir = os.sys.argv[2]
-            calculate_statistics(response_dir)
+            calculate_statisticsSA(response_dir)
         else:
-            print("Please specify the directory containing the response json files after --calculate-stats.")
-    elif len(os.sys.argv) > 1 and os.sys.argv[1] == "--get-failed-count":
+            print("Please specify the directory containing the response json files after --calculate-statsSA.")
+    elif len(os.sys.argv) > 1 and os.sys.argv[1] == "--get-failed-countSA":
         if len(os.sys.argv) > 2:
             response_dir = os.sys.argv[2]
-            get_failed_count(response_dir)
+            calculate_statisticsSA(response_dir)
         else:
-            print("Please specify the directory containing the response json files after --get-failed-count.")
+            print("Please specify the directory containing the response json files after --get-failed-countSA.")
+    elif len(os.sys.argv) > 1 and os.sys.argv[1] == "--calculate-statsEA":
+        if len(os.sys.argv) > 2:
+            response_dir = os.sys.argv[2]
+            calculate_statisticsEA(response_dir)
+        else:
+            print("Please specify the directory containing the response json files after --calculate-statsEA.")
     else:
-        print("No analysis type specified. Use --analysis followed by 'sentiment' or 'emotions', or use --calculate-stats followed by the directory containing response json files.")
+        print("No analysis type specified. Use --analysis followed by 'sentiment' or 'emotions', or use --calculate-statsSA followed by the directory containing response json files.")
 
 if __name__ == "__main__":
     main()

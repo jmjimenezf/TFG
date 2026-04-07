@@ -20,8 +20,8 @@ Sentiment analysis and emotion detection with corpus:
 
 ## Settings
 In file config_SA.yaml you can configure the models and temperature to run, you need to install them manually in Ollama first. You can also select the corpus and establish the prompt and context.
-## Corpus
-First corpus SST2 is accessed via Huggingface API, you need to export your key into an env variable called: HF_TOKEN. The GNE corpus is accessed locally in corpus folder.
+## Corpora
+First corpus SST2 is accessed via Huggingface API, you need to export your key into an env variable called: HF_TOKEN. The GNE corpus is accessed locally in corpus folder, and it has been processed to filter out the emotions that doesn't fit Ekman set, and positive and negative suprise has been unified in surprise.
 
 # Sources
 

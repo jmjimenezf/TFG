@@ -102,8 +102,8 @@ def sentiment_analysis(config_file="config_SA.yaml"):
         # create folder with experiment name and date inside results folder, and save the json file there
         experiment_folder = f"{results_folder}/{timestamp_started.strftime('%Y%m%d_%H%M%S')}_{config['experiment_name']}"
         os.makedirs(experiment_folder, exist_ok=True)
-        #add date to the output file name, like date_experiment_modelname.json
-        output_file = f"{experiment_folder}/{timestamp_started.strftime('%Y%m%d')}_{config['experiment_name']}_{llm['model'].replace(' ', '_')}.json"
+        #add date to the output file name, like date_results_experiment-modelname.json
+        output_file = f"{experiment_folder}/{timestamp_started.strftime('%Y%m%d')}_results_{config['experiment_name']}-{llm['model'].replace(' ', '_')}.json"
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(llm_responses, f, indent=4, ensure_ascii=False)
         timestamp_finished = datetime.now()
@@ -134,7 +134,7 @@ def sentiment_analysis(config_file="config_SA.yaml"):
 # Iterate all the json files in the results folder, and calculate the statistics for each one of them, and save them in a new json file with the same name but with _stats.json at the end, like date_experiment_modelname_stats.json
 # The failed responses are logged to a separate file with the name date_experiment_modelname_failed.json, containing the id, text, response, golden_standard and error message for each failed response.
 def calculate_statisticsSA(response_dir):
-    for responses_file in glob.glob(f"{response_dir}/*run*.json"):
+    for responses_file in glob.glob(f"{response_dir}/*_results_*.json"):
         if responses_file.endswith('_stats.json'):
             continue
         with open(responses_file, 'r', encoding='utf-8') as f:
@@ -288,8 +288,8 @@ def emotions_analysis(config_file="config_EA.yaml"):
                 "golden_standard": sample['gold']
             })
         # Save responses to a json file (only the fields we need)
-        #add date to the output file name, like date_experiment_modelname.json
-        output_file = f"{experiment_folder}/{timestamp_started.strftime('%Y%m%d')}_{config['experiment_name']}_{model.replace(' ', '_')}.json"
+        #add date to the output file name, like date_results_experiment-modelname.json
+        output_file = f"{experiment_folder}/{timestamp_started.strftime('%Y%m%d')}_results_{config['experiment_name']}-{model.replace(' ', '_')}.json"
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(llm_responses, f, indent=4, ensure_ascii=False)
         timestamp_finished = datetime.now()
@@ -313,19 +313,20 @@ def emotions_analysis(config_file="config_EA.yaml"):
 
 def calculate_statisticsEA(response_dir):
     # This function will be similar to calculate_statisticsSA but adapted to the emotion analysis task,
-    # where we will calculate the accuracy for each emotion, and the overall accuracy, and save them in a new json file with the same name but with _stats.json at the end, like date_experiment_modelname_stats.json
+    # where we will calculate the accuracy for each emotion, and the overall accuracy, and save them in a new json file with the same name but with _stats.json at the end, like date_results_experiment-model_stats.json
     # Global accuracy will be calculated as the number of correct responses divided by the total number of samples, and emotion accuracy will be calculated as the number of correct responses for each emotion divided by the total number of samples for that emotion.
     # macro f1 and weighted f1
     # Per emotion f1, precision and recall, and overall f1, precision and recall
-    for responses_file in glob.glob(f"{response_dir}/*run*.json"):
+    for responses_file in glob.glob(f"{response_dir}/*_results_*.json"):
         if responses_file.endswith('_stats.json') or responses_file.endswith('_failed.json') or responses_file.endswith('.log'):
             continue
 
         with open(responses_file, 'r', encoding='utf-8') as f:
+            log(f"Calculating statistics for {responses_file}")
             responses = json.load(f)
 
-        y_true = [r['golden_standard'] for r in responses]
-        y_pred = [r['response'] for r in responses]
+        y_true = [str(r['golden_standard']).lower() for r in responses]
+        y_pred = [str(r['response']).lower() for r in responses]
         
         labels = sorted(list(set(y_true)))
         
@@ -355,13 +356,13 @@ def calculate_statisticsEA(response_dir):
         overall_accuracy = total_correct / total_samples if total_samples > 0 else 0
         
         # Macro and Weighted Averages
-        macro_precision = sum(stats['precision'] for stats in per_emotion_stats.values()) / len(labels)
-        macro_recall = sum(stats['recall'] for stats in per_emotion_stats.values()) / len(labels)
-        macro_f1 = sum(stats['f1-score'] for stats in per_emotion_stats.values()) / len(labels)
+        macro_precision = sum(stats['precision'] for stats in per_emotion_stats.values()) / len(labels) if labels else 0
+        macro_recall = sum(stats['recall'] for stats in per_emotion_stats.values()) / len(labels) if labels else 0
+        macro_f1 = sum(stats['f1-score'] for stats in per_emotion_stats.values()) / len(labels) if labels else 0
         
-        weighted_precision = sum(stats['precision'] * stats['support'] for stats in per_emotion_stats.values()) / total_samples
-        weighted_recall = sum(stats['recall'] * stats['support'] for stats in per_emotion_stats.values()) / total_samples
-        weighted_f1 = sum(stats['f1-score'] * stats['support'] for stats in per_emotion_stats.values()) / total_samples
+        weighted_precision = sum(stats['precision'] * stats['support'] for stats in per_emotion_stats.values()) / total_samples if total_samples > 0 else 0
+        weighted_recall = sum(stats['recall'] * stats['support'] for stats in per_emotion_stats.values()) / total_samples if total_samples > 0 else 0
+        weighted_f1 = sum(stats['f1-score'] * stats['support'] for stats in per_emotion_stats.values()) / total_samples if total_samples > 0 else 0
 
         stats = {
             "model": os.path.basename(responses_file).split('_')[2],

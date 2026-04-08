@@ -1,5 +1,4 @@
 #Archivo Configuración para Sentiment Analysis
-# Keep run in name for statistics calculation do not use lower dashes.
 experiment_name: "runSA1"
 dataset:
   name: "stanfordnlp/sst2"

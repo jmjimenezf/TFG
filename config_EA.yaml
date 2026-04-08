@@ -1,5 +1,4 @@
 #Config file for Emotion Analysis
-# Keep run in name for statistics calculation do not use _underscores_.
 experiment_name: "runEA1Test"
 dataset:
   name: "corpus/gne_ekman.jsonl"

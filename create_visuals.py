@@ -23,6 +23,7 @@ plt.rcParams['legend.fontsize'] = 10
 plt.rcParams['lines.linewidth'] = 1.5
 
 experiment_folder = "results/20260408_230658_runSA2Test"
+#experiment_folder = "results/20260408_233711_runEA1Test"
 
 
 def load_stats_files(experiment_folder):
@@ -31,7 +32,13 @@ def load_stats_files(experiment_folder):
     for file in Path(experiment_folder).glob("*_stats.json"):
         with open(file, 'r', encoding='utf-8') as f:
             stats = json.load(f)
-            model_name = stats['model'].replace('.json', '')
+            # Extract model name from filename: 20260408_results_ExpName-model:version_stats.json
+            filename = file.stem.replace('_stats', '')  # Remove _stats suffix
+            parts = filename.split('_')[2:]  # Skip date and 'results'
+            model_full = '_'.join(parts)  # Rejoin the rest
+            # Extract just the model name (before the colon)
+            model_name = model_full.split(':')[0].split('-')[-1]  # Get last part after splitting by colon and dash
+            stats['model'] = model_name  # Update the model name in stats to shortened version
             stats_files[model_name] = stats
     return stats_files
 

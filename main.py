@@ -73,6 +73,7 @@ def sentiment_analysis(config_file="config_SA.yaml"):
     
     for llm in llms:
         llm_responses = []
+        unexpected_responses = []
         temperature = llm.get("temperature", "default")
         for sample in ds:
             log(f"Processing LLM: {llm['model']} with temperature {llm.get('temperature', 'default')}, prompt={prompt.replace('{text}', sample['sentence'])}")
@@ -91,6 +92,12 @@ def sentiment_analysis(config_file="config_SA.yaml"):
             model_response = response['response'].strip()
             if model_response not in ['0', '1']:
                 log(f"Error: Unexpected response '{response['response']}' for sample {sample['idx']}")
+                unexpected_responses.append({
+                    "id": sample['idx'],
+                    "text": sample['sentence'],
+                    "response": model_response,
+                    "error_message": "Response is not '0' or '1'"
+                })
                 continue
             llm_responses.append({
                 "id": sample['idx'],
@@ -106,6 +113,14 @@ def sentiment_analysis(config_file="config_SA.yaml"):
         output_file = f"{experiment_folder}/{timestamp_started.strftime('%Y%m%d')}_results_{config['experiment_name']}-{llm['model'].replace(' ', '_')}.json"
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(llm_responses, f, indent=4, ensure_ascii=False)
+        
+        # Save unexpected responses to a file if any exist
+        if unexpected_responses:
+            unexpected_output_file = f"{experiment_folder}/{timestamp_started.strftime('%Y%m%d')}_results_{config['experiment_name']}-{llm['model'].replace(' ', '_')}_unexpected.json"
+            with open(unexpected_output_file, 'w', encoding='utf-8') as f:
+                json.dump(unexpected_responses, f, indent=4, ensure_ascii=False)
+            log(f"Unexpected responses saved to {unexpected_output_file}")
+        
         timestamp_finished = datetime.now()
         log(f"Experiment '{config['experiment_name']}' with model '{llm['model']}' completed at {timestamp_finished.strftime('%Y-%m-%d %H:%M:%S')}.")
         log(f"Time taken for model '{llm['model']}': {(timestamp_finished - timestamp_started).total_seconds()} seconds.")
@@ -127,7 +142,7 @@ def sentiment_analysis(config_file="config_SA.yaml"):
         log("Calculating statistics...")
         calculate_statisticsSA(experiment_folder)
         log("Calculating failed response counts...")
-        calculate_statisticsSA(experiment_folder)
+        get_failed_countSA(experiment_folder)
 
 # Function to calculate statistics, f1score, accuracy, precision, recall, time taken.
 # From the json file with the responses, calculate the statistics and save them in a new json file with the same name but with _stats.json at the end, like date_experiment_modelname_stats.json
@@ -416,7 +431,7 @@ def main():
     elif len(os.sys.argv) > 1 and os.sys.argv[1] == "--get-failed-countSA":
         if len(os.sys.argv) > 2:
             response_dir = os.sys.argv[2]
-            calculate_statisticsSA(response_dir)
+            get_failed_countSA(response_dir)
         else:
             print("Please specify the directory containing the response json files after --get-failed-countSA.")
     elif len(os.sys.argv) > 1 and os.sys.argv[1] == "--calculate-statsEA":

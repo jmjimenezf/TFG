@@ -1,0 +1,37 @@
+[
+    {
+        "id": 3,
+        "text": "remains utterly satisfied to remain the same throughout ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 11,
+        "text": "for those moviegoers who complain that ` they do n't make movies like they used to anymore ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 39,
+        "text": "sharply ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 82,
+        "text": ", like life , is n't much fun without the highs and lows ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 94,
+        "text": "it does n't follow the stale , standard , connect-the-dots storyline which has become commonplace in movies that explore the seamy underbelly of the criminal world ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    }
+]

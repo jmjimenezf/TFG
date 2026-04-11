@@ -1,0 +1,12 @@
+{
+    "model": "runSA2Test-mistral:7b-instruct-q4",
+    "accuracy": 0.7863590772316951,
+    "precision": 0.7224489795918367,
+    "recall": 0.9833333333333333,
+    "f1_score": 0.8329411764705883,
+    "total_samples": 997,
+    "true_positives": 531,
+    "true_negatives": 253,
+    "false_positives": 204,
+    "false_negatives": 9
+}

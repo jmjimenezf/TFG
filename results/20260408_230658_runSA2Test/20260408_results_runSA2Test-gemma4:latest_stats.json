@@ -1,0 +1,12 @@
+{
+    "model": "runSA2Test-gemma4:latest.json",
+    "accuracy": 0.894,
+    "precision": 0.9658119658119658,
+    "recall": 0.8339483394833949,
+    "f1_score": 0.8950495049504952,
+    "total_samples": 1000,
+    "true_positives": 452,
+    "true_negatives": 442,
+    "false_positives": 16,
+    "false_negatives": 90
+}

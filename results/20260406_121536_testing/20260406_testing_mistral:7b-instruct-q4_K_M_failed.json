@@ -1,0 +1,156 @@
+[
+    {
+        "id": 0,
+        "text": "hide new secretions from the parental units ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 1,
+        "text": "contains no wit , only labored gags ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 3,
+        "text": "remains utterly satisfied to remain the same throughout ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 11,
+        "text": "for those moviegoers who complain that ` they do n't make movies like they used to anymore ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 12,
+        "text": "the part where nothing 's happening , ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 14,
+        "text": "lend some dignity to a dumb story ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 16,
+        "text": "cold movie ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 18,
+        "text": "redundant concept ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 26,
+        "text": "which half of dragonfly is worse : the part where nothing 's happening , or the part where something 's happening ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 30,
+        "text": "the action is stilted ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 34,
+        "text": "sit through , ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 40,
+        "text": "the entire point of a shaggy dog story , of course , is that it goes nowhere , and this is classic nowheresville in every sense . ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 41,
+        "text": "sometimes dry ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 44,
+        "text": "a $ 40 million version of a game ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 54,
+        "text": "contrived , well-worn situations ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 55,
+        "text": "a doa ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 56,
+        "text": "poor ben bratt could n't find stardom if mapquest emailed him point-to-point driving directions . ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 64,
+        "text": "though ford and neeson capably hold our interest , but its just not a thrilling movie ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 70,
+        "text": "of the most highly-praised disappointments i ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 76,
+        "text": "weak and ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 85,
+        "text": ", though many of the actors throw off a spark or two when they first appear , they ca n't generate enough heat in this cold vacuum of a comedy to start a reaction . ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 92,
+        "text": "strung-together moments ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    }
+]

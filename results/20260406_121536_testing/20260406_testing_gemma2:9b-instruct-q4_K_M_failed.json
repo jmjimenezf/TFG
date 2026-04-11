@@ -1,0 +1,44 @@
+[
+    {
+        "id": 3,
+        "text": "remains utterly satisfied to remain the same throughout ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 7,
+        "text": "of saucy ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 21,
+        "text": "if anything , see it for karen black , who camps up a storm as a fringe feminist conspiracy theorist named dirty dick . ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 27,
+        "text": "in world cinema ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 39,
+        "text": "sharply ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 81,
+        "text": "generates ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    }
+]

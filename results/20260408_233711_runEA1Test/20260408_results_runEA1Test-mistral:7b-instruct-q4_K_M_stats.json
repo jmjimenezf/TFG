@@ -1,0 +1,53 @@
+{
+    "model": "runEA1Test-mistral:7b-instruct-q4",
+    "overall_accuracy": 0.155,
+    "macro_avg": {
+        "precision": 0.37766622805457756,
+        "recall": 0.21572479855653093,
+        "f1-score": 0.16665204093897287
+    },
+    "weighted_avg": {
+        "precision": 0.4789167004516519,
+        "recall": 0.155,
+        "f1-score": 0.12662470929376893
+    },
+    "per_emotion_stats": {
+        "anger": {
+            "precision": 0.14563106796116504,
+            "recall": 0.7627118644067796,
+            "f1-score": 0.24456521739130435,
+            "support": 118
+        },
+        "disgust": {
+            "precision": 0.17,
+            "recall": 0.1259259259259259,
+            "f1-score": 0.14468085106382977,
+            "support": 135
+        },
+        "fear": {
+            "precision": 0.3333333333333333,
+            "recall": 0.01694915254237288,
+            "f1-score": 0.03225806451612903,
+            "support": 118
+        },
+        "joy": {
+            "precision": 0.4,
+            "recall": 0.1111111111111111,
+            "f1-score": 0.1739130434782609,
+            "support": 54
+        },
+        "sadness": {
+            "precision": 0.5384615384615384,
+            "recall": 0.23863636363636365,
+            "f1-score": 0.3307086614173228,
+            "support": 88
+        },
+        "surprise": {
+            "precision": 0.6785714285714286,
+            "recall": 0.039014373716632446,
+            "f1-score": 0.0737864077669903,
+            "support": 487
+        }
+    },
+    "total_samples": 1000
+}

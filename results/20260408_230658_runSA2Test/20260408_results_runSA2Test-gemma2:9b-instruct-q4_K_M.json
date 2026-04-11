@@ -1,0 +1,5996 @@
+[
+    {
+        "id": 0,
+        "text": "hide new secretions from the parental units ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 1,
+        "text": "contains no wit , only labored gags ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 2,
+        "text": "that loves its characters and communicates something rather beautiful about human nature ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 3,
+        "text": "remains utterly satisfied to remain the same throughout ",
+        "response": "1",
+        "golden_standard": 0
+    },
+    {
+        "id": 4,
+        "text": "on the worst revenge-of-the-nerds clichés the filmmakers could dredge up ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 5,
+        "text": "that 's far too tragic to merit such superficial treatment ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 6,
+        "text": "demonstrates that the director of such hollywood blockbusters as patriot games can still turn out a small , personal film with an emotional wallop . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 7,
+        "text": "of saucy ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 8,
+        "text": "a depressed fifteen-year-old 's suicidal poetry ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 9,
+        "text": "are more deeply thought through than in most ` right-thinking ' films ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 10,
+        "text": "goes to absurd lengths ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 11,
+        "text": "for those moviegoers who complain that ` they do n't make movies like they used to anymore ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 12,
+        "text": "the part where nothing 's happening , ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 13,
+        "text": "saw how bad this movie was ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 14,
+        "text": "lend some dignity to a dumb story ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 15,
+        "text": "the greatest musicians ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 16,
+        "text": "cold movie ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 17,
+        "text": "with his usual intelligence and subtlety ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 18,
+        "text": "redundant concept ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 19,
+        "text": "swimming is above all about a young woman 's face , and by casting an actress whose face projects that woman 's doubts and yearnings , it succeeds . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 20,
+        "text": "equals the original and in some ways even betters it ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 21,
+        "text": "if anything , see it for karen black , who camps up a storm as a fringe feminist conspiracy theorist named dirty dick . ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 22,
+        "text": "a smile on your face ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 23,
+        "text": "comes from the brave , uninhibited performances ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 24,
+        "text": "excruciatingly unfunny and pitifully unromantic ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 25,
+        "text": "enriched by an imaginatively mixed cast of antic spirits ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 26,
+        "text": "which half of dragonfly is worse : the part where nothing 's happening , or the part where something 's happening ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 27,
+        "text": "in world cinema ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 28,
+        "text": "very good viewing alternative ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 29,
+        "text": "the plot is nothing but boilerplate clichés from start to finish , ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 30,
+        "text": "the action is stilted ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 31,
+        "text": "on all cylinders ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 32,
+        "text": "will find little of interest in this film , which is often preachy and poorly acted ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 33,
+        "text": "by far the worst movie of the year ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 34,
+        "text": "sit through , ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 35,
+        "text": "more than another `` best man '' clone by weaving a theme throughout this funny film ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 36,
+        "text": "it 's about issues most adults have to face in marriage and i think that 's what i liked about it -- the real issues tucked between the silly and crude storyline ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 37,
+        "text": "heroes ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 38,
+        "text": "oblivious to the existence of this film ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 39,
+        "text": "sharply ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 40,
+        "text": "the entire point of a shaggy dog story , of course , is that it goes nowhere , and this is classic nowheresville in every sense . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 41,
+        "text": "sometimes dry ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 42,
+        "text": "as they come , already having been recycled more times than i 'd care to count ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 43,
+        "text": "covers this territory with wit and originality , suggesting that with his fourth feature ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 44,
+        "text": "a $ 40 million version of a game ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 45,
+        "text": "gorgeous and deceptively minimalist ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 46,
+        "text": "cross swords with the best of them and ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 47,
+        "text": "as a fringe feminist conspiracy theorist ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 48,
+        "text": "proves once again he has n't lost his touch , bringing off a superb performance in an admittedly middling film . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 49,
+        "text": "disappointments ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 50,
+        "text": "the horrors ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 51,
+        "text": "a muddle splashed with bloody beauty as vivid as any scorsese has ever given us . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 52,
+        "text": "many pointless ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 53,
+        "text": "a beautifully ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 54,
+        "text": "contrived , well-worn situations ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 55,
+        "text": "a doa ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 56,
+        "text": "poor ben bratt could n't find stardom if mapquest emailed him point-to-point driving directions . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 57,
+        "text": "to be as subtle and touching as the son 's room ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 58,
+        "text": "starts with a legend ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 59,
+        "text": "far less sophisticated and ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 60,
+        "text": "rich veins of funny stuff in this movie ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 61,
+        "text": "no apparent joy ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 62,
+        "text": "shot on ugly digital video ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 63,
+        "text": "... a sour little movie at its core ; an exploration of the emptiness that underlay the relentless gaiety of the 1920 's ... the film 's ending has a `` what was it all for ? '' ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 64,
+        "text": "though ford and neeson capably hold our interest , but its just not a thrilling movie ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 65,
+        "text": "is pretty damned funny . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 66,
+        "text": "we never feel anything for these characters ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 67,
+        "text": "'s a lousy one at that ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 68,
+        "text": "the corporate circus that is the recording industry in the current climate of mergers and downsizing ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 69,
+        "text": "the storylines are woven together skilfully , the magnificent swooping aerial shots are breathtaking , and the overall experience is awesome . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 70,
+        "text": "of the most highly-praised disappointments i ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 71,
+        "text": "sounds like a cruel deception carried out by men of marginal intelligence , with reactionary ideas about women and a total lack of empathy . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 72,
+        "text": "seem fresh ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 73,
+        "text": "to the dustbin of history ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 74,
+        "text": "as a director , eastwood is off his game ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 75,
+        "text": "pays earnest homage to turntablists ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 76,
+        "text": "weak and ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 77,
+        "text": "skip this dreck , ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 78,
+        "text": "contains very few laughs and even less surprises ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 79,
+        "text": "film to affirm love 's power to help people endure almost unimaginable horror ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 80,
+        "text": "are an absolute joy ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 81,
+        "text": "generates ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 82,
+        "text": ", like life , is n't much fun without the highs and lows ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 83,
+        "text": "based on a true and historically significant story ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 84,
+        "text": "well-rounded tribute ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 85,
+        "text": ", though many of the actors throw off a spark or two when they first appear , they ca n't generate enough heat in this cold vacuum of a comedy to start a reaction . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 86,
+        "text": "so much like a young robert deniro ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 87,
+        "text": "khouri manages , with terrific flair , to keep the extremes of screwball farce and blood-curdling family intensity on one continuum . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 88,
+        "text": "fashioning an engrossing entertainment out ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 89,
+        "text": "spiffy animated feature ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 90,
+        "text": "that 's so sloppily written and cast that you can not believe anyone more central to the creation of bugsy than the caterer ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 91,
+        "text": "alternating between facetious comic parody and pulp melodrama , this smart-aleck movie ... tosses around some intriguing questions about the difference between human and android life ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 92,
+        "text": "strung-together moments ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 93,
+        "text": ", generous and subversive artworks ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 94,
+        "text": "it does n't follow the stale , standard , connect-the-dots storyline which has become commonplace in movies that explore the seamy underbelly of the criminal world ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 95,
+        "text": "funny yet ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 96,
+        "text": "overbearing and over-the-top ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 97,
+        "text": "it 's robert duvall ! ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 98,
+        "text": "rich and sudden wisdom ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 99,
+        "text": "acted and directed , it 's clear that washington most certainly has a new career ahead of him ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 100,
+        "text": "in memory ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 101,
+        "text": "respectable new one ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 102,
+        "text": "yet this grating showcase ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 103,
+        "text": "hate to tear your eyes away from the images long enough to read the subtitles ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 104,
+        "text": "addition to sporting one of the worst titles in recent cinematic history ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 105,
+        "text": ", this gender-bending comedy is generally quite funny . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 106,
+        "text": "build some robots , haul 'em to the theater with you for the late show , and put on your own mystery science theatre 3000 tribute to what is almost certainly going to go down as the worst -- and only -- killer website movie of this or any other year ",
+        "response": "1",
+        "golden_standard": 0
+    },
+    {
+        "id": 107,
+        "text": "do n't work in concert ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 108,
+        "text": "the direction has a fluid , no-nonsense authority , and the performances by harris , phifer and cam ` ron seal the deal . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 109,
+        "text": "would have liked it more if it had just gone that one step further ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 110,
+        "text": "it 's too harsh to work as a piece of storytelling , ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 111,
+        "text": "hawaiian shirt ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 112,
+        "text": "takes a classic story , casts attractive and talented actors and uses a magnificent landscape to create a feature film that is wickedly fun to watch . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 113,
+        "text": "provide its keenest pleasures ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 114,
+        "text": "altogether too slight to be called any kind of masterpiece ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 115,
+        "text": "grievous but ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 116,
+        "text": "after you laugh once ( maybe twice ) , you will have completely forgotten the movie by the time you get back to your car in the parking lot . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 117,
+        "text": "hopeless ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 118,
+        "text": "unpretentious , charming , quirky , original ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 119,
+        "text": "nicks and steinberg match their own creations for pure venality -- that 's giving it the old college try . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 120,
+        "text": "very well-written and very well-acted . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 121,
+        "text": "are n't many conclusive answers in the film ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 122,
+        "text": "clumsy dialogue , heavy-handed phoney-feeling sentiment , ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 123,
+        "text": "proves a lovely trifle that , unfortunately , is a little too in love with its own cuteness . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 124,
+        "text": "bring tissues . ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 125,
+        "text": "the film 's mid-to-low budget is betrayed by the surprisingly shoddy makeup work . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 126,
+        "text": "brings the proper conviction to his role as ( jason bourne ) . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 127,
+        "text": "as a young woman of great charm , generosity and diplomacy ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 128,
+        "text": "there 's something poignant about an artist of 90-plus years taking the effort to share his impressions of life and loss and time and art with us . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 129,
+        "text": "just too silly ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 130,
+        "text": "cinematic bon bons ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 131,
+        "text": "it is supremely unfunny and unentertaining to watch middle-age and ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 132,
+        "text": "a lively and engaging examination of how similar obsessions can dominate a family . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 133,
+        "text": "irritates and ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 134,
+        "text": "collapse ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 135,
+        "text": "so many of the challenges it poses for itself that one can forgive the film its flaws ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 136,
+        "text": ", it serves as a workable primer for the region 's recent history , and would make a terrific 10th-grade learning tool . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 137,
+        "text": "wide-awake all the way through ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 138,
+        "text": "( vainly , i think ) ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 139,
+        "text": "is one big excuse to play one lewd scene after another . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 140,
+        "text": "is effective if you stick with it ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 141,
+        "text": "that underscore the importance of family tradition and familial community ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 142,
+        "text": "delivers what it promises : a look at the `` wild ride '' that ensues when brash young men set out to conquer the online world with laptops , cell phones and sketchy business plans ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 143,
+        "text": "watching this digital-effects-heavy , supposed family-friendly comedy ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 144,
+        "text": "absolutely and completely ridiculous and ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 145,
+        "text": "'s a very tasteful rock and roll movie . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 146,
+        "text": "the movie is almost completely lacking in suspense , surprise and consistent emotional conviction . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 147,
+        "text": "realistic portrayal ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 148,
+        "text": "as if trying to grab a lump of play-doh , the harder that liman tries to squeeze his story ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 149,
+        "text": "well-thought stunts or ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 150,
+        "text": "reveals how important our special talents can be when put in service of of others . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 151,
+        "text": "no lika da ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 152,
+        "text": "a welcome relief ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 153,
+        "text": "the promise of digital filmmaking ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 154,
+        "text": "just one that could easily wait for your pay per view dollar ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 155,
+        "text": "justify a theatrical simulation of the death camp of auschwitz ii-birkenau ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 156,
+        "text": "extraordinary faith ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 157,
+        "text": "have i seen a film so willing to champion the fallibility of the human heart ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 158,
+        "text": ", sometimes beautiful adaptation ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 159,
+        "text": "about as interesting ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 160,
+        "text": "caruso sometimes descends into sub-tarantino cuteness ... but for the most part he makes sure the salton sea works the way a good noir should , keeping it tight and nasty . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 161,
+        "text": "overlong , and bombastic ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 162,
+        "text": "derivative and hammily ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 163,
+        "text": "most audacious , outrageous , ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 164,
+        "text": "at its best moments ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 165,
+        "text": "disney again ransacks its archives for a quick-buck sequel . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 166,
+        "text": "that final , beautiful scene ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 167,
+        "text": "some movies suck you in despite their flaws , ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 168,
+        "text": "eats , meddles , argues , laughs , kibbitzes and fights ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 169,
+        "text": "the problem with the film is whether these ambitions , laudable in themselves , justify a theatrical simulation of the death camp of auschwitz ii-birkenau . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 170,
+        "text": ", compelling ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 171,
+        "text": "infectiously ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 172,
+        "text": "the picture runs a mere 84 minutes , but it 's no glance . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 173,
+        "text": "think of this dog of a movie ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 174,
+        "text": "'s remarkable procession of sweeping pictures that have reinvigorated the romance genre . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 175,
+        "text": "those so-so films that could have been much better ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 176,
+        "text": "a passable date film ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 177,
+        "text": "imax in short ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 178,
+        "text": "i hate it . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 179,
+        "text": "'s pleasant enough -- and oozing with attractive men ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 180,
+        "text": "no one involved , save dash , shows the slightest aptitude for acting ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 181,
+        "text": "in this wildly uneven movie ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 182,
+        "text": "pokes , provokes , takes expressionistic license ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 183,
+        "text": "like one of ( spears ' ) music videos in content -- except that it goes on for at least 90 more minutes and , worse , that you have to pay if you want to see it ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 184,
+        "text": "with color and depth , and rather a good time ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 185,
+        "text": "silly , outrageous , ingenious ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 186,
+        "text": "being able to hit on a 15-year old when you 're over 100 ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 187,
+        "text": "the story of trouble every day ... is so sketchy it amounts to little more than preliminary notes for a science-fiction horror film , and the movie 's fragmentary narrative style makes piecing the story together frustrating difficult . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 188,
+        "text": "the year 's best and most unpredictable comedy ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 189,
+        "text": "starts off so bad that you feel like running out screaming ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 190,
+        "text": "men in black ii achieves ultimate insignificance -- it 's the sci-fi comedy spectacle as whiffle-ball epic . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 191,
+        "text": "elvira fans could hardly ask for more . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 192,
+        "text": "a good one ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 193,
+        "text": ", plodding picture ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 194,
+        "text": "the character dramas , which never reach satisfying conclusions ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 195,
+        "text": "lost in the translation this time ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 196,
+        "text": "speak for it while it forces you to ponder anew what a movie can be ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 197,
+        "text": "enables shafer to navigate spaces both large ... and small ... with considerable aplomb ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 198,
+        "text": "a plot cobbled together from largely flat and uncreative moments ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 199,
+        "text": "inane and awful ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 200,
+        "text": "told in scattered fashion ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 201,
+        "text": "takes chances that are bold by studio standards ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 202,
+        "text": "believe it or not , jason actually takes a backseat in his own film to special effects ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 203,
+        "text": "only thing to fear about `` fear dot com '' ",
+        "response": "1",
+        "golden_standard": 0
+    },
+    {
+        "id": 204,
+        "text": "whole mess ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 205,
+        "text": "manages to infuse the rocky path to sibling reconciliation with flashes of warmth and gentle humor ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 206,
+        "text": "working from a surprisingly sensitive script co-written by gianni romoli ... ozpetek avoids most of the pitfalls you 'd expect in such a potentially sudsy set-up . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 207,
+        "text": "a résumé loaded with credits like `` girl in bar # 3 ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 208,
+        "text": "enjoy the ride ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 209,
+        "text": "very little to add beyond the dark visions already relayed by superb recent predecessors ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 210,
+        "text": "the , yes , snail-like pacing ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 211,
+        "text": "an extremely unpleasant film . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 212,
+        "text": "if it is n't entirely persuasive , it does give exposure to some talented performers ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 213,
+        "text": "the whole affair , true story or not , feels incredibly hokey ... ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 214,
+        "text": "are all things we 've seen before ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 215,
+        "text": "poignant and leavened ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 216,
+        "text": "breathless anticipation ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 217,
+        "text": "significantly better ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 218,
+        "text": "as predictable as the tides ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 219,
+        "text": "bewilderingly brilliant and entertaining ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 220,
+        "text": "it 's smooth and professional ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 221,
+        "text": ", unassuming , subordinate ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 222,
+        "text": "the horror ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 223,
+        "text": "a technically superb film ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 224,
+        "text": "the positive change in tone here seems to have recharged him . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 225,
+        "text": "pays earnest homage to turntablists and beat jugglers , old schoolers and current innovators ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 226,
+        "text": "a dim ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 227,
+        "text": ", vicious and absurd ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 228,
+        "text": "because he acts so goofy all the time ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 229,
+        "text": "to a kinetic life so teeming that even cranky adults may rediscover the quivering kid inside ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 230,
+        "text": "'s at once laughable and compulsively watchable , ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 231,
+        "text": "merit its 103-minute length ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 232,
+        "text": "the value and respect for the term epic cinema ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 233,
+        "text": "as a dentist 's waiting room ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 234,
+        "text": "showing honest emotions ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 235,
+        "text": "amazingly lame . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 236,
+        "text": "confessions may not be a straightforward bio ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 237,
+        "text": "seems a disappointingly thin slice of lower-class london life ; despite the title ... amounts to surprisingly little ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 238,
+        "text": "the story is bogus and ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 239,
+        "text": "this comic gem is as delightful as it is derivative . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 240,
+        "text": "to spare wildlife ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 241,
+        "text": "ugly as the shabby digital photography ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 242,
+        "text": "understand the difference between dumb fun and just plain dumb ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 243,
+        "text": "traditionally structured ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 244,
+        "text": "frida is n't that much different from many a hollywood romance . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 245,
+        "text": "does point the way for adventurous indian filmmakers toward a crossover into nonethnic markets . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 246,
+        "text": "are worth the price of admission ... if `` gory mayhem '' is your idea of a good time ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 247,
+        "text": "was produced by jerry bruckheimer and directed by joel schumacher , and reflects the worst of their shallow styles : wildly overproduced , inadequately motivated every step of the way and demographically targeted to please every one ( and no one ) ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 248,
+        "text": "carnage and ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 249,
+        "text": "degraded , handheld blair witch video-cam footage ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 250,
+        "text": "second fiddle ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 251,
+        "text": "about the folly of superficiality that is itself ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 252,
+        "text": "serves as auto-critique , and its clumsiness as its own most damning censure . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 253,
+        "text": "tedious norwegian offering which somehow snagged an oscar nomination . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 254,
+        "text": ", esther kahn is unusual but unfortunately also irritating . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 255,
+        "text": "a stylish exercise ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 256,
+        "text": "halfway through this picture i was beginning to hate it ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 257,
+        "text": "a setup so easy it borders on facile ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 258,
+        "text": "a thoroughly awful movie ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 259,
+        "text": "takes hold and grips hard ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 260,
+        "text": "look smeary and blurry , to the point of distraction ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 261,
+        "text": "the picture 's fascinating byways ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 262,
+        "text": "guns , cheatfully filmed martial arts , disintegrating bloodsucker computer effects and jagged camera moves ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 263,
+        "text": "breezy , distracted rhythms ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 264,
+        "text": "than this mess ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 265,
+        "text": "evanescent , seamless and sumptuous stream ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 266,
+        "text": "slick and manufactured to claim street credibility . ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 267,
+        "text": "take care is nicely performed by a quintet of actresses , ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 268,
+        "text": "valuable messages ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 269,
+        "text": "in no small part thanks to lau ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 270,
+        "text": "two guys who desperately want to be quentin tarantino when they grow up ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 271,
+        "text": "no new plot conceptions ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 272,
+        "text": "essentially a collection of bits -- ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 273,
+        "text": "does n't bode well for the rest of it ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 274,
+        "text": "elevated by it -- the kind of movie ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 275,
+        "text": "usual worst ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 276,
+        "text": "hugh grant , who has a good line in charm ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 277,
+        "text": "arrive early and stay late ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 278,
+        "text": "is a pan-american movie , with moments of genuine insight into the urban heart . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 279,
+        "text": "i could have used my two hours better watching being john malkovich again . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 280,
+        "text": "shot in artful , watery tones of blue , green and brown ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 281,
+        "text": "an unorthodox little film noir organized crime story that includes one of the strangest ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 282,
+        "text": "considerable aplomb ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 283,
+        "text": "acted by diane lane and richard gere . ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 284,
+        "text": "scant ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 285,
+        "text": "an admittedly middling film ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 286,
+        "text": "too ludicrous ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 287,
+        "text": "the rock 's fighting skills are more in line with steven seagal ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 288,
+        "text": "rich and full ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 289,
+        "text": "warm water under a red bridge is a celebration of feminine energy , a tribute to the power of women to heal . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 290,
+        "text": "that uses a sensational , real-life 19th-century crime as a metaphor for ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 291,
+        "text": ", home movie will leave you wanting more , not to mention leaving you with some laughs and a smile on your face . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 292,
+        "text": ", the film retains ambiguities that make it well worth watching . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 293,
+        "text": "ultra-cheesy dialogue ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 294,
+        "text": "added depth and resonance ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 295,
+        "text": "the sensational ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 296,
+        "text": "huge-screen format to make an old-fashioned nature film that educates viewers with words and pictures while entertaining them ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 297,
+        "text": "handsome but unfulfilling suspense drama ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 298,
+        "text": "'s not very good either . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 299,
+        "text": "in her most charmless ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 300,
+        "text": "makes an unusual but pleasantly haunting debut behind the camera . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 301,
+        "text": "a fine , rousing , g-rated family film , aimed mainly at little kids but with plenty of entertainment value to keep grown-ups from squirming in their seats . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 302,
+        "text": "everything about girls ca n't swim , even its passages of sensitive observation , feels secondhand , familiar -- and not in a good way . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 303,
+        "text": "the cast is spot on and ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 304,
+        "text": "ugly digital video ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 305,
+        "text": "can only love the players it brings to the fore for the gifted but no-nonsense human beings they are and for the still-inestimable contribution they have made to our shared history ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 306,
+        "text": "rather choppy ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 307,
+        "text": "becomes one more dumb high school comedy about sex gags and prom dates ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 308,
+        "text": "demands and receives excellent performances ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 309,
+        "text": "xxx is a blast of adrenalin , ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 310,
+        "text": "pure escapism ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 311,
+        "text": "create a film that 's not merely about kicking undead *** ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 312,
+        "text": "about love and culture ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 313,
+        "text": "is worse : ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 314,
+        "text": "horrifying ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 315,
+        "text": "mourns her tragedies in private ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 316,
+        "text": "the action scenes are poorly delivered ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 317,
+        "text": "it 's so bad ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 318,
+        "text": "so bad ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 319,
+        "text": ", 84 minutes is short ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 320,
+        "text": "dabbles all around , never gaining much momentum ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 321,
+        "text": "a masterpiece ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 322,
+        "text": "a lot to do with the casting of juliette binoche as sand , who brings to the role her pale , dark beauty and characteristic warmth ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 323,
+        "text": "does n't leave you with much . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 324,
+        "text": "good acting ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 325,
+        "text": "like most of jaglom 's films , some of it is honestly affecting ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 326,
+        "text": "marivaux 's rhythms , and mira sorvino 's limitations as a classical actress ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 327,
+        "text": "is less successful on other levels ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 328,
+        "text": "'s still quite worth seeing ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 329,
+        "text": "intelligent and moving . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 330,
+        "text": "he appears miserable throughout as he swaggers through his scenes ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 331,
+        "text": "men ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 332,
+        "text": "accomplish what few sequels can ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 333,
+        "text": "a clunky tv-movie approach to detailing a chapter in the life of the celebrated irish playwright , poet and drinker ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 334,
+        "text": "i 'm not sure which half of dragonfly is worse : the part where nothing 's happening , or the part where something 's happening ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 335,
+        "text": "exhilarating , funny and fun . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 336,
+        "text": "bound to appeal to women looking for a howlingly trashy time ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 337,
+        "text": ", it never quite makes the grade as tawdry trash . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 338,
+        "text": "has the right stuff for silly summer entertainment and has enough laughs to sustain interest to the end . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 339,
+        "text": "endearing , caring ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 340,
+        "text": "seagal , who looks more like danny aiello these days ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 341,
+        "text": "enactments , however fascinating they may be as history , are too crude to serve the work especially well . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 342,
+        "text": "not everything in this ambitious comic escapade works , but coppola , along with his sister , sofia , is a real filmmaker ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 343,
+        "text": "the dehumanizing and ego-destroying process ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 344,
+        "text": "taboo subject matter ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 345,
+        "text": "see this ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 346,
+        "text": "utterly incompetent conclusion ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 347,
+        "text": "has always been part of for the most part wilde 's droll whimsy helps `` being earnest '' overcome its weaknesses and parker 's creative interference ... ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 348,
+        "text": "you find yourself rooting for gai 's character to avoid the fate that has befallen every other carmen before her ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 349,
+        "text": "run for cover ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 350,
+        "text": "low budget ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 351,
+        "text": "a deceptively casual ode ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 352,
+        "text": "walked out muttering words like `` horrible '' and `` terrible , '' ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 353,
+        "text": "help chicago make the transition from stage to screen with considerable appeal intact ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 354,
+        "text": "you have ellen pompeo sitting next to you for the ride ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 355,
+        "text": "a giant step backward ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 356,
+        "text": "true fans ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 357,
+        "text": "just copies ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 358,
+        "text": "quite rich and exciting ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 359,
+        "text": "luminous interviews and amazingly evocative film from three decades ago ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 360,
+        "text": "from lynch , jeunet , and von trier while failing to find a spark of its own ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 361,
+        "text": ", you ca n't help but get caught up in the thrill of the company 's astonishing growth . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 362,
+        "text": "this frozen tundra soap opera ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 363,
+        "text": "a showdown ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 364,
+        "text": "is simply too overdone ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 365,
+        "text": "greatly ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 366,
+        "text": "free ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 367,
+        "text": "intriguing species ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 368,
+        "text": "try and evade ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 369,
+        "text": "scherfig , who has had a successful career in tv ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 370,
+        "text": "watching it leaves you giddy ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 371,
+        "text": "beautifully acted and directed , it 's clear that washington most certainly has a new career ahead of him if he so chooses . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 372,
+        "text": "far tamer ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 373,
+        "text": "outrageously creative action ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 374,
+        "text": "the most purely enjoyable and satisfying evenings ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 375,
+        "text": "is never any question of how things will turn out ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 376,
+        "text": "only open new wounds ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 377,
+        "text": "despite suffering a sense-of-humour failure ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 378,
+        "text": "for a story ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 379,
+        "text": "in addition to hoffman 's powerful acting clinic ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 380,
+        "text": "right stuff ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 381,
+        "text": "the wonderful cinematography and naturalistic acting ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 382,
+        "text": "high-concept films ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 383,
+        "text": "sleepwalk through vulgarities in a sequel you can refuse ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 384,
+        "text": "with no reason for being ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 385,
+        "text": "just about all of the film is confusing on one level or another , making ararat far more demanding than it needs to be . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 386,
+        "text": "invigorating , surreal , and resonant ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 387,
+        "text": "the chateau , a sense of light-heartedness , that makes it attractive throughout ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 388,
+        "text": "have a passion for the material ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 389,
+        "text": "maybe it is formula filmmaking , but there 's nothing wrong with that if the film is well-crafted and this one is . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 390,
+        "text": "a movie that ca n't get sufficient distance from leroy 's ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 391,
+        "text": "romanticized rendering ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 392,
+        "text": "is terrific as rachel ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 393,
+        "text": "of special effects that run the gamut from cheesy to cheesier to cheesiest ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 394,
+        "text": "the worst film a man has made about women since valley of the dolls ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 395,
+        "text": "come , already having been recycled more times than i 'd care to count ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 396,
+        "text": "with awe ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 397,
+        "text": "joyous romp of a film . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 398,
+        "text": "a nonstop hoot ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 399,
+        "text": ", partisans and sabotage ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 400,
+        "text": "gory as the scenes of torture and self-mutilation ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 401,
+        "text": "just as the recent argentine film son of the bride reminded us that a feel-good movie can still show real heart ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 402,
+        "text": "ub equally spoofs and celebrates the more outre aspects of ` black culture ' and the dorkier aspects of ` white culture , ' even as it points out how inseparable the two are . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 403,
+        "text": "the package in which this fascinating -- and timely -- content comes wrapped is disappointingly generic . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 404,
+        "text": "this obscenely bad dark comedy , so crass ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 405,
+        "text": "naomi watts is terrific as rachel ; her petite frame and vulnerable persona emphasising her plight and isolation ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 406,
+        "text": "exciting and ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 407,
+        "text": "schticky ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 408,
+        "text": "and in the best way ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 409,
+        "text": "of our most flamboyant female comics ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 410,
+        "text": "squareness that would make it the darling of many a kids-and-family-oriented cable channel ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 411,
+        "text": "( less a movie than ) an appalling , odoriferous thing ... so ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 412,
+        "text": "this film special ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 413,
+        "text": "of the amazing spider-man ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 414,
+        "text": "the stomach-turning violence ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 415,
+        "text": "could use a little more humanity ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 416,
+        "text": "not everything ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 417,
+        "text": "acquires an undeniable entertainment value as the slight , pale mr. broomfield continues to force himself on people and into situations that would make lesser men run for cover . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 418,
+        "text": "a slow-moving police-procedural thriller ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 419,
+        "text": "a bad idea from frame one ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 420,
+        "text": "terrific , sweaty-palmed fun ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 421,
+        "text": "very funny joke ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 422,
+        "text": "volletta wallace 's maternal fury ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 423,
+        "text": "complex story ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 424,
+        "text": "atop wooden dialogue ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 425,
+        "text": "that it progresses in such a low-key manner that it risks monotony ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 426,
+        "text": "be burns 's strongest film since the brothers mcmullen ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 427,
+        "text": "ca n't miss it ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 428,
+        "text": "dover kosashvili 's outstanding feature debut so potent ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 429,
+        "text": "of the best short story writing ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 430,
+        "text": "it seeks excitement in manufactured high drama ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 431,
+        "text": "feeble comedy . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 432,
+        "text": "an insult to every family ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 433,
+        "text": "it is essentially empty ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 434,
+        "text": "of the film 's problems ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 435,
+        "text": "makes my big fat greek wedding look like an apartheid drama ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 436,
+        "text": "is not even half the interest . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 437,
+        "text": "never achieve the popularity of my big fat greek wedding ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 438,
+        "text": "`` auto focus '' works as an unusual biopic and document of male swingers in the playboy era ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 439,
+        "text": "right now , they 're merely signposts marking the slow , lingering death of imagination . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 440,
+        "text": "appealing character quirks to forgive that still serious problem ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 441,
+        "text": "often lingers just as long on the irrelevant as on the engaging , which gradually turns what time is it there ? ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 442,
+        "text": "the energy it takes to describe how bad it is ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 443,
+        "text": "wait to see it then . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 444,
+        "text": "could easily be called the best korean film of 2002 ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 445,
+        "text": "largest-ever historical canvas ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 446,
+        "text": "a solid cast , assured direction and complete lack of modern day irony . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 447,
+        "text": "comatose ballerinas ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 448,
+        "text": "oh-so-important ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 449,
+        "text": "of the road , where the thematic ironies are too obvious and the sexual politics too smug ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 450,
+        "text": "formulaic equations ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 451,
+        "text": "'s a work that , with humor , warmth , and intelligence , captures a life interestingly lived ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 452,
+        "text": "deserve a passing grade ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 453,
+        "text": "you 're gon na like this movie . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 454,
+        "text": "simply stupid , irrelevant ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 455,
+        "text": "weaves both the elements of the plot and a powerfully evocative mood combining heated sexuality with a haunting sense of malaise . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 456,
+        "text": "a heavy-handed indictment of parental failings and ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 457,
+        "text": "felt performances across the board . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 458,
+        "text": "seem weird and distanced ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 459,
+        "text": "has finally made a movie that is n't just offensive ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 460,
+        "text": "casual and fun ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 461,
+        "text": "plodding mess ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 462,
+        "text": "the weird thing about the santa clause 2 , purportedly a children 's movie , is that there is nothing in it to engage children emotionally . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 463,
+        "text": "the film 's intimate camera work ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 464,
+        "text": "you 'll find yourself wishing that you and they were in another movie . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 465,
+        "text": "of dishonesty ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 466,
+        "text": "as bestial ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 467,
+        "text": "as it is a loose collection of not-so-funny gags , scattered moments of lazy humor ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 468,
+        "text": ", they prove more distressing than suspenseful . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 469,
+        "text": "crackles ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 470,
+        "text": "a fairly revealing study of its two main characters ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 471,
+        "text": "high drama , disney-style ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 472,
+        "text": "may be more genial than ingenious , but it gets the job done . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 473,
+        "text": ", good action , good acting , good dialogue , good pace , good cinematography . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 474,
+        "text": "her bully of a husband ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 475,
+        "text": "gaghan ... has thrown every suspenseful cliché in the book at this nonsensical story . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 476,
+        "text": "the darker elements of misogyny and unprovoked violence suffocate the illumination created by the two daughters ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 477,
+        "text": "oozing , chilling and heart-warming ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 478,
+        "text": "stale retread ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 479,
+        "text": "filming the teeming life on the reefs ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 480,
+        "text": "an already thin story boils down to surviving invaders seeking an existent anti-virus . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 481,
+        "text": "quite endearing . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 482,
+        "text": "with fewer gags to break the tedium ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 483,
+        "text": "overbearing and ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 484,
+        "text": "deep deceptions ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 485,
+        "text": "things will turn out okay ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 486,
+        "text": "the paranoid claustrophobia of a submarine movie with the unsettling spookiness of the supernatural ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 487,
+        "text": "grand ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 488,
+        "text": "good-natured fun found in films like tremors ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 489,
+        "text": "betters it ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 490,
+        "text": "transfixes the audience ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 491,
+        "text": "moving and important ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 492,
+        "text": "dope ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 493,
+        "text": "an avid interest ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 494,
+        "text": "blessed with two fine , nuanced lead performances ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 495,
+        "text": "true star ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 496,
+        "text": "hampered -- no , paralyzed -- by a self-indulgent script ... ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 497,
+        "text": "is expressly for idiots who do n't care what kind of sewage they shovel into their mental gullets to simulate sustenance . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 498,
+        "text": "is haunting ... ( it 's ) what punk rock music used to be , and what the video medium could use more of : spirit , perception , conviction ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 499,
+        "text": "which nurses plot holes gaping enough to pilot an entire olympic swim team through ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 500,
+        "text": "that 's both charming and well acted ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 501,
+        "text": "a bad blend ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 502,
+        "text": "the guy-in-a-dress genre ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 503,
+        "text": "director claude chabrol has become the master of innuendo . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 504,
+        "text": "riveting and ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 505,
+        "text": "excruciatingly unfunny and pitifully unromantic . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 506,
+        "text": "war movies ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 507,
+        "text": "an inuit masterpiece ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 508,
+        "text": "oscar ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 509,
+        "text": "the cliché-laden screenplay ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 510,
+        "text": "girlfriends are bad , wives are worse ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 511,
+        "text": "provide much more insight ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 512,
+        "text": ", and as easy to be bored by as your abc 's , ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 513,
+        "text": "what you wish for ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 514,
+        "text": "fluid and mesmerizing ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 515,
+        "text": "... a vivid , thoughtful , unapologetically raw coming-of-age tale full of sex , drugs and rock 'n' roll . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 516,
+        "text": "it 's a testament to the film 's considerable charm that it succeeds in entertaining , despite playing out like a feature-length sitcom replete with stereotypical familial quandaries . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 517,
+        "text": "ransacks ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 518,
+        "text": "lacks the charisma and ability to carry the film on his admittedly broad shoulders . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 519,
+        "text": "book report ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 520,
+        "text": "leave the theater ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 521,
+        "text": "spousal abuse ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 522,
+        "text": "the director , with his fake backdrops and stately pacing , ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 523,
+        "text": "a diverse and astonishingly articulate cast of palestinian and israeli children . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 524,
+        "text": "anyone who suffers through this film ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 525,
+        "text": "one carried by a strong sense of humanism ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 526,
+        "text": "for all its brilliant touches , dragon loses its fire midway , nearly flickering out by its perfunctory conclusion . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 527,
+        "text": "another entertaining romp from robert rodriguez . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 528,
+        "text": "directed with purpose and finesse by england 's roger mitchell , who handily makes the move from pleasing , relatively lightweight commercial fare such as notting hill to commercial fare with real thematic heft . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 529,
+        "text": "it 'll probably be in video stores by christmas ",
+        "response": "1",
+        "golden_standard": 0
+    },
+    {
+        "id": 530,
+        "text": "funny , triumphant , ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 531,
+        "text": "underachiever ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 532,
+        "text": "a film of ideas and wry comic mayhem ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 533,
+        "text": "of moviegoers for real characters and compelling plots ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 534,
+        "text": "dime-store ruminations ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 535,
+        "text": "worth a ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 536,
+        "text": ", reality shows -- reality shows for god 's sake ! ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 537,
+        "text": "whatever the movie 's sentimental , hypocritical lessons about sexism , its true colors come out in various wet t-shirt and shower scenes . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 538,
+        "text": "'ll cry for your money back ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 539,
+        "text": "enthralling ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 540,
+        "text": "is worse : the part where nothing 's happening , or the part where something 's happening ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 541,
+        "text": "like max rothman 's future , does not work . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 542,
+        "text": "of quirky characters and an engaging story ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 543,
+        "text": "has the thrown-together feel of a summer-camp talent show : hastily written , underrehearsed , arbitrarily plotted and ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 544,
+        "text": "making kahlo 's art a living , ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 545,
+        "text": "bad run ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 546,
+        "text": "may just end up trying to drown yourself in a lake afterwards . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 547,
+        "text": "many pleasures ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 548,
+        "text": "is worth searching out ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 549,
+        "text": "at this time , with this cast , this movie is hopeless ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 550,
+        "text": "time bombs ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 551,
+        "text": "balances both traditional or modern stories together in a manner that one never overwhelms the other . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 552,
+        "text": "the surface histrionics failing to compensate for the paper-thin characterizations and facile situations ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 553,
+        "text": "plumbs uncharted depths of stupidity , incoherence and sub-sophomoric sexual banter . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 554,
+        "text": "a sour taste in one 's mouth ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 555,
+        "text": "decent performance ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 556,
+        "text": "... familiar and predictable , and 4/5ths of it might as well have come from a xerox machine rather than ( writer-director ) franc . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 557,
+        "text": "a headline-fresh thriller set among orthodox jews on the west bank , joseph cedar 's time of favor manages not only to find a compelling dramatic means of addressing a complex situation , it does so without compromising that complexity . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 558,
+        "text": "responsible for one of the worst movies of one year ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 559,
+        "text": "appalling , shamelessly manipulative and contrived ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 560,
+        "text": "movie love ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 561,
+        "text": "human darkness ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 562,
+        "text": "understand that the idea of exploiting molestation for laughs is funny , not actually exploiting it yourself ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 563,
+        "text": "it 's too loud to shout insults at the screen ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 564,
+        "text": "'s a long way from orwell 's dark , intelligent warning cry ( 1984 ) ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 565,
+        "text": "a coming-of-age film that avoids the cartoonish clichés and sneering humor of the genre as it provides a fresh view of an old type -- ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 566,
+        "text": "the perfect movie ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 567,
+        "text": "ardently waste viewers ' time with a gobbler like this ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 568,
+        "text": "oscar-sweeping franchise predecessor ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 569,
+        "text": "it sets out with no pretensions and delivers big time ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 570,
+        "text": "see how many times they can work the words `` radical '' or `` suck '' into a sentence ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 571,
+        "text": "give you enough to feel good about ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 572,
+        "text": "unexpectedly insightful ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 573,
+        "text": "allen 's romantic comedies so pertinent and enduring ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 574,
+        "text": "is an extraordinary film , not least ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 575,
+        "text": "a doubt ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 576,
+        "text": "maudlin or ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 577,
+        "text": "with the the wisdom and humor of its subjects ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 578,
+        "text": "a party-hearty teen flick that scalds like acid . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 579,
+        "text": "the wan , thinly sketched story ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 580,
+        "text": "provide the funniest moments in this oddly sweet comedy about jokester highway patrolmen ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 581,
+        "text": "this romantic/comedy asks the question how much souvlaki can you take before indigestion sets in . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 582,
+        "text": "again dazzle and delight us ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 583,
+        "text": "that beneath the familiar , funny surface is a far bigger , far more meaningful story than one in which little green men come to earth for harvesting purposes ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 584,
+        "text": "aspires to be more than another `` best man '' clone by weaving a theme throughout this funny film ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 585,
+        "text": "impresses as a skillfully assembled , highly polished and professional adaptation ... just about as chilling and unsettling as ` manhunter ' was . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 586,
+        "text": "failure to construct a story with even a trace of dramatic interest ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 587,
+        "text": "but it also comes with the laziness and arrogance of a thing that already knows it 's won . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 588,
+        "text": "it 's a frightful vanity film that , no doubt , pays off what debt miramax felt they owed to benigni . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 589,
+        "text": "laughed at ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 590,
+        "text": ", future lizard endeavors will need to adhere more closely to the laws of laughter ",
+        "response": "1",
+        "golden_standard": 0
+    },
+    {
+        "id": 591,
+        "text": "a philosophical void ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 592,
+        "text": "unlikable characters and a self-conscious sense ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 593,
+        "text": "intelligence or invention ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 594,
+        "text": "hot on the hardwood proves once again that a man in drag is not in and of himself funny . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 595,
+        "text": "hopelessly juvenile ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 596,
+        "text": "shakespearean -- both in depth and breadth -- ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 597,
+        "text": "unique directing style ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 598,
+        "text": "required to give this comic slugfest some heart ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 599,
+        "text": "feel more like a non-stop cry for attention ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 600,
+        "text": "hip hop beat ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 601,
+        "text": "feel more like literary conceits than flesh-and-blood humans ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 603,
+        "text": "funniest and ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 604,
+        "text": "a chilly , remote , emotionally distant piece ... so dull that its tagline should be ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 605,
+        "text": "starts off witty and sophisticated and you ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 606,
+        "text": "a bargain-basement european pickup ",
+        "response": "1",
+        "golden_standard": 0
+    },
+    {
+        "id": 607,
+        "text": ", but what really sets the film apart is debrauwer 's refusal to push the easy emotional buttons ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 608,
+        "text": "shines on all the characters , as the direction is intelligently accomplished ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 609,
+        "text": "taps into the primal fears of young people trying to cope with the mysterious and brutal nature of adults ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 610,
+        "text": "lead a group of talented friends astray ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 611,
+        "text": "it 's just weirdness for the sake of weirdness , and where human nature should be ingratiating , it 's just grating . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 612,
+        "text": "this gentle , mesmerizing portrait ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 613,
+        "text": "genial is the conceit , this is one of those rare pictures that you root for throughout , ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 614,
+        "text": "draws the audience into the unexplainable pain and eccentricities that are attached to the concept of loss ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 615,
+        "text": "spliced together bits and pieces of midnight run and 48 hours ( and , for that matter , shrek ) ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 616,
+        "text": "is so busy making reference to other films and trying to be other films that it fails to have a heart , mind or humor of its own ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 617,
+        "text": "it lacks the compassion , good-natured humor and the level of insight that made ( eyre 's ) first film something of a sleeper success . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 618,
+        "text": "handles it in the most unexpected way ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 619,
+        "text": "those eternally devoted to the insanity of black will have an intermittently good time . ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 620,
+        "text": "obscenely bad ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 621,
+        "text": "devastatingly ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 622,
+        "text": "i do n't see the point ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 623,
+        "text": "comes off like a bad imitation of the bard ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 624,
+        "text": "that excites the imagination and tickles the funny bone ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 625,
+        "text": "one of its strengths ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 626,
+        "text": "of masterpiece ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 627,
+        "text": "into this dream hispanic role with a teeth-clenching gusto ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 628,
+        "text": "stiff or just plain bad ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 629,
+        "text": "makes these lives count ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 630,
+        "text": "jolts the laughs from the audience -- ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 631,
+        "text": "a delightful stimulus ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 632,
+        "text": "has no point ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 633,
+        "text": "of isolation and frustration ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 634,
+        "text": "winning shot ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 635,
+        "text": "of its music or comic antics , but through the perverse pleasure of watching disney scrape the bottom of its own cracker barrel ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 636,
+        "text": "feeling guilty for it ... then , miracle of miracles , the movie does a flip-flop . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 637,
+        "text": "lewis ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 638,
+        "text": "that there 's no other reason why anyone should bother remembering it ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 639,
+        "text": "bogdanovich puts history in perspective and , via kirsten dunst 's remarkable performance , he showcases davies as a young woman of great charm , generosity and diplomacy . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 640,
+        "text": "father cliché ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 641,
+        "text": "domestic tension and unhappiness ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 642,
+        "text": "the effort is sincere and the results are honest , but the film is so bleak that it 's hardly watchable ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 643,
+        "text": "called the best korean film of 2002 ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 644,
+        "text": "one of the best rock ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 645,
+        "text": "it forces you to watch people doing unpleasant things to each other and themselves ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 646,
+        "text": "of the holiday box office pie ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 647,
+        "text": "inexpressible and drab wannabe ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 648,
+        "text": "the hail of bullets , none of which ever seem to hit ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 649,
+        "text": "like an extended , open-ended poem than a traditionally structured story ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 650,
+        "text": "'s about as convincing as any other arnie musclefest , but has a little too much resonance with real world events and ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 651,
+        "text": "to hate ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 652,
+        "text": "to be mesmerised ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 653,
+        "text": "the people who loved the 1989 paradiso will prefer this new version ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 654,
+        "text": "a lot of energy ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 655,
+        "text": "for its success on a patient viewer ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 656,
+        "text": "while tattoo borrows heavily from both seven and the silence of the lambs , it manages to maintain both a level of sophisticated intrigue and human-scale characters that suck the audience in . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 657,
+        "text": "this may be burns 's strongest film since the brothers mcmullen . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 658,
+        "text": "turned down ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 659,
+        "text": "timely , tongue-in-cheek ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 660,
+        "text": "undramatic ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 661,
+        "text": "the pile of useless actioners ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 662,
+        "text": "morton deserves an oscar nomination . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 663,
+        "text": "weirdly engaging and unpredictable character pieces ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 664,
+        "text": "efficiency and an affection for the period ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 665,
+        "text": "manages to accomplish what few sequels can -- it equals the original and in some ways even betters it ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 666,
+        "text": "does not work . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 667,
+        "text": "it is n't merely offensive ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 668,
+        "text": "tell a story about the vietnam war before the pathology set in ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 669,
+        "text": "it irrigates our souls . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 670,
+        "text": "a hint of humor ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 671,
+        "text": "with a big heart ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 672,
+        "text": "a rollicking adventure for you and all your mateys , regardless of their ages ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 673,
+        "text": "its most immediate and most obvious pleasure ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 674,
+        "text": "there are laughs aplenty , and , as a bonus , viewers do n't have to worry about being subjected to farts , urine , feces , semen , or any of the other foul substances that have overrun modern-day comedies ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 675,
+        "text": "one of those rare films that seems as though it was written for no one , but somehow manages to convince almost everyone that it was put on the screen , just for them . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 676,
+        "text": "made a decent ` intro ' documentary ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 677,
+        "text": "makes us see familiar issues , like racism and homophobia , in a fresh way . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 678,
+        "text": "the film goes right over the edge and kills every sense of believability ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 679,
+        "text": "a beyond-lame satire , teddy bears ' picnic ranks among the most pitiful directing debuts by an esteemed writer-actor . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 680,
+        "text": "emotional seesawing ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 681,
+        "text": "movies with the courage to go over the top and movies that do n't care about being stupid ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 682,
+        "text": "target audience has n't graduated from junior high school ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 683,
+        "text": "this intricately structured and well-realized drama ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 684,
+        "text": "embracing ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 685,
+        "text": "the film a celluloid litmus test for the intellectual and emotional pedigree of your date and a giant step backward for a director i admire ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 686,
+        "text": "a meditation on faith and madness , frailty is blood-curdling stuff . ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 687,
+        "text": "a pretty listless collection ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 688,
+        "text": "other than its oscar-sweeping franchise predecessor ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 689,
+        "text": "almost everyone growing up believes their family must look like `` the addams family '' to everyone looking in ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 690,
+        "text": "have been called freddy gets molested by a dog ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 691,
+        "text": "moody male hustler ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 692,
+        "text": "uselessly redundant and shamelessly money-grubbing than most third-rate horror sequels ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 693,
+        "text": "the film is filled with humorous observations about the general absurdity of modern life as seen through the eyes outsiders , but deftly manages to avoid many of the condescending stereotypes that so often plague films dealing with the mentally ill ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 694,
+        "text": "which is mostly a bore ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 695,
+        "text": "an entertaining mix of period drama and flat-out farce that should please history fans ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 696,
+        "text": "suspect that you 'll be as bored watching morvern callar as the characters are in it . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 697,
+        "text": "the problems and characters it reveals are universal and involving , and the film itself -- as well its delightful cast -- is so breezy , pretty and gifted , it really won my heart . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 698,
+        "text": "love this movie ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 699,
+        "text": "... the efforts of its star , kline , to lend some dignity to a dumb story are for naught . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 700,
+        "text": "flat as the scruffy sands of its titular community ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 701,
+        "text": "liberal doses of dark humor , gorgeous exterior photography , and a stable-full of solid performances ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 702,
+        "text": "is badly edited , often awkwardly directed and suffers from the addition of a wholly unnecessary pre-credit sequence designed to give some of the characters a ` back story ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 703,
+        "text": "works smoothly ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 704,
+        "text": "with a creepy and dead-on performance ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 705,
+        "text": "might want to take a reality check before you pay the full ticket price to see `` simone , '' and consider a dvd rental instead . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 706,
+        "text": "placed in the pantheon of the best of the swashbucklers ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 707,
+        "text": "a satisfyingly unsettling ride ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 708,
+        "text": "good a job as anyone ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 709,
+        "text": ", smart and complicated ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 710,
+        "text": "the intimate , unguarded moments of folks who live in unusual homes -- ",
+        "response": "1",
+        "golden_standard": 0
+    },
+    {
+        "id": 711,
+        "text": "are pretty valuable these days ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 712,
+        "text": "( i ) t 's certainly laudable that the movie deals with hot-button issues in a comedic context , but barbershop is n't as funny as it should be . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 713,
+        "text": "that the only rip off that we were aware of ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 714,
+        "text": "beautiful to watch and ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 715,
+        "text": "accentuating ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 716,
+        "text": "no quarter to anyone seeking to pull a cohesive story out of its 2 1/2 - hour running time ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 717,
+        "text": "a wonderful ensemble cast ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 718,
+        "text": "endear ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 719,
+        "text": "the truly funny bits ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 720,
+        "text": "'s that painful . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 721,
+        "text": "american beauty reeks ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 722,
+        "text": "clotted with heavy-handed symbolism , dime-store psychology and endless scenic shots that make 105 minutes seem twice as long ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 723,
+        "text": "without any of its sense of fun or energy ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 724,
+        "text": "be the cat 's meow ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 725,
+        "text": "'s simply stupid , irrelevant and deeply ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 726,
+        "text": "wonderland adventure , a stalker thriller , and ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 727,
+        "text": "be part of ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 728,
+        "text": "cinema history as the only movie ever ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 729,
+        "text": "comes from a renowned indian film culture that allows americans to finally revel in its splendor ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 730,
+        "text": "accomplished oscar winners ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 731,
+        "text": "of those underrated professionals who deserve but rarely receive it ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 732,
+        "text": "we find ourselves surprised at how much we care about the story ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 733,
+        "text": "an all-time low ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 734,
+        "text": "enjoyed it just ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 735,
+        "text": "reacting to it - feeling a part of its grand locations , ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 736,
+        "text": "delivered with such conviction that it 's hard not to be carried away ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 737,
+        "text": "colorful , vibrant introduction ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 738,
+        "text": "the slow parade of human frailty fascinates you ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 739,
+        "text": "famuyiwa 's feature deals with its subject matter in a tasteful , intelligent manner , rather than forcing us to endure every plot contrivance that the cliché-riddled genre can offer . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 740,
+        "text": "a laugh between them ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 741,
+        "text": "that gradually sneaks up on the audience ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 742,
+        "text": "photographic marvel ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 743,
+        "text": "is shockingly bad and absolutely unnecessary . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 744,
+        "text": "gets vivid performances from her cast and pulls off some deft ally mcbeal-style fantasy sequences . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 745,
+        "text": "the result , however well-intentioned , is ironically just the sort of disposable , kitchen-sink homage that illustrates why the whole is so often less than the sum of its parts in today 's hollywood . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 746,
+        "text": "while not for every taste , this often very funny collegiate gross-out comedy goes a long way toward restoring the luster of the national lampoon film franchise , too long reduced to direct-to-video irrelevancy . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 747,
+        "text": "wow ' factor ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 748,
+        "text": "hashiguchi covers this territory with wit and originality , suggesting that with his fourth feature -- the first to be released in the u.s. -- a major director is emerging in world cinema . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 749,
+        "text": "brazil-like , hyper-real satire ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 750,
+        "text": "low on both suspense and payoff ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 751,
+        "text": "find a scathing portrayal of a powerful entity strangling the life out of the people who want to believe in it the most ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 752,
+        "text": "an absolute delight for all audiences ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 753,
+        "text": "would tax einstein 's brain . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 754,
+        "text": "'s its first sign of trouble ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 755,
+        "text": "ca n't believe anyone would really buy this stuff ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 756,
+        "text": "moonlight mile should strike a nerve in many . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 757,
+        "text": "if ever such a dependable concept was botched in execution ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 758,
+        "text": "wedding feels a bit anachronistic . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 759,
+        "text": "been lost in the translation this time ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 760,
+        "text": "revelatory performance ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 761,
+        "text": "the pianist like a surgeon mends a broken heart ; very meticulously but without any passion ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 762,
+        "text": "remains oddly detached ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 763,
+        "text": "that is more complex and honest than anything represented in a hollywood film ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 764,
+        "text": "nifty premise ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 765,
+        "text": "vein ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 766,
+        "text": "the wonderfully lush morvern callar is pure punk existentialism , and ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 767,
+        "text": "go down with a ship as leaky ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 768,
+        "text": "earnest movie ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 769,
+        "text": "effective enough ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 770,
+        "text": "showing us well-thought stunts or a car chase that we have n't seen 10,000 times ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 771,
+        "text": "make the film more silly than scary , like some sort of martha stewart decorating program run amok ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 772,
+        "text": "going at a rapid pace , ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 773,
+        "text": "still fun and enjoyable and ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 774,
+        "text": "a lazy exercise in bad filmmaking ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 775,
+        "text": "this thing is virtually unwatchable . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 776,
+        "text": "'s also undeniably exceedingly clever ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 777,
+        "text": "would ever work in a mcculloch production again if they looked at how this movie turned out ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 778,
+        "text": "an entertainment destination for the general public ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 779,
+        "text": "i have ever seen , constantly pulling the rug from underneath us , seeing things from new sides , plunging deeper , getting more intense . ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 780,
+        "text": "england 's roger mitchell , who handily makes the move from pleasing ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 781,
+        "text": "to the enduring strengths of women ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 782,
+        "text": "surprisingly faithful ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 783,
+        "text": "the numerous scenes ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 784,
+        "text": "exaggerated and ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 785,
+        "text": "takes a really long , slow and dreary time ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 786,
+        "text": "improved upon the first ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 787,
+        "text": "that might have made it an exhilarating ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 788,
+        "text": "k-19 : the widowmaker is a great yarn . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 789,
+        "text": "humorless ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 790,
+        "text": "thank ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 791,
+        "text": "just because a walk to remember ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 792,
+        "text": "bite ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 793,
+        "text": "amounts to little more than punishment . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 794,
+        "text": "the humor is recognizably plympton ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 795,
+        "text": "likeable thanks to its cast , its cuisine and its quirky tunes . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 796,
+        "text": "makes piecing the story together frustrating difficult ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 797,
+        "text": "a fascinating , compelling story ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 798,
+        "text": "the film 's hero is a bore and his innocence soon becomes a questionable kind of inexcusable dumb innocence ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 799,
+        "text": "a fascinating , dark thriller that keeps you hooked on the delicious pulpiness of its lurid fiction . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 800,
+        "text": "whimsical and relevant today ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 801,
+        "text": "see the it ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 802,
+        "text": "tackles the difficult subject of grief and loss ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 803,
+        "text": "grotesque narcissism ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 804,
+        "text": "funny and sad ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 805,
+        "text": "is , arguably , the most accomplished work to date from hong kong 's versatile stanley kwan . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 806,
+        "text": "it wore me down ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 807,
+        "text": "be so stupid ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 808,
+        "text": "as refreshing ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 809,
+        "text": "what we get in feardotcom is more like something from a bad clive barker movie . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 810,
+        "text": "has created a brilliant motion picture . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 811,
+        "text": "from the clumsy cliché of the ugly american ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 812,
+        "text": "a beautiful food entrée ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 813,
+        "text": "us a slice of life that 's very different from our own and yet instantly recognizable ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 814,
+        "text": "the passive-aggressive psychology of co-dependence ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 815,
+        "text": "his story ends or just ca n't tear himself away from the characters ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 816,
+        "text": "does not live up to its style ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 817,
+        "text": "scenes of cinematic perfection ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 818,
+        "text": "love liza 's tale ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 819,
+        "text": "the type of film about growing up that we do n't see often enough these days : realistic , urgent ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 820,
+        "text": "first , for a movie that tries to be smart , it 's kinda dumb . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 821,
+        "text": "go see this delightful comedy . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 822,
+        "text": "worst sense ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 823,
+        "text": "propelled by the acting ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 824,
+        "text": "presents us with an action movie that actually has a brain . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 825,
+        "text": "human nature is a goofball movie , in the way that malkovich was , but it tries too hard ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 826,
+        "text": "overplayed ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 827,
+        "text": "should be poignant ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 828,
+        "text": "'' feels capable of charming the masses with star power , a pop-induced score and sentimental moments that have become a spielberg trademark . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 829,
+        "text": "visceral and dangerously honest revelations about the men and machines behind the curtains of our planet ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 830,
+        "text": "kirshner and monroe seem to be in a contest to see who can out-bad-act the other . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 831,
+        "text": "mug shots ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 832,
+        "text": "the barbarism of ` ethnic cleansing ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 833,
+        "text": "another masterpiece ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 834,
+        "text": "an incredibly layered and stylistic film ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 835,
+        "text": "a classic story ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 836,
+        "text": "daring ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 837,
+        "text": "wo n't feel cheated by the high infidelity of unfaithful . ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 838,
+        "text": "haute ",
+        "response": "1",
+        "golden_standard": 0
+    },
+    {
+        "id": 839,
+        "text": "convey a strong sense of the girls ' environment . ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 840,
+        "text": "ugly and ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 841,
+        "text": "a journey spanning nearly three decades of bittersweet camaraderie and history , in which we feel that we truly know what makes holly and marina tick ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 842,
+        "text": "any insight ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 843,
+        "text": "a well-intentioned effort that 's still too burdened by the actor 's offbeat sensibilities for the earnest emotional core to emerge with any degree of accessibility . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 844,
+        "text": "passionate , tumultuous affair ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 845,
+        "text": "the kind of under-inspired , overblown enterprise that gives hollywood sequels a bad name ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 846,
+        "text": "an enjoyable experience . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 847,
+        "text": "'ve had more interesting -- and , dare i say , thematically complex -- bowel movements than this long-on-the-shelf , point-and-shoot exercise in gimmicky crime drama . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 848,
+        "text": "is a greater attention to the parents -- and particularly the fateful fathers -- in the emotional evolution of the two bewitched adolescents . ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 849,
+        "text": "well to cram earplugs ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 850,
+        "text": "who is simply tired ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 851,
+        "text": "it 's the little nuances that perhaps had to escape from director mark romanek 's self-conscious scrutiny to happen , that finally get under your skin ",
+        "response": "1",
+        "golden_standard": 0
+    },
+    {
+        "id": 852,
+        "text": "both convincing and radiant ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 853,
+        "text": "smart and dark - ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 854,
+        "text": "emaciated flick ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 855,
+        "text": "jim brown treats his women -- as dumb , credulous , unassuming , subordinate subjects ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 856,
+        "text": "point at things that explode into flame ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 857,
+        "text": "jolts the laughs from the audience ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 858,
+        "text": "heralds something special ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 859,
+        "text": "has n't escaped the rut dug by the last one ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 860,
+        "text": "a perfect performance ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 861,
+        "text": "this cinema verite speculation on the assassination of john f. kennedy may have been inspired by blair witch , but it takes its techniques into such fresh territory that the film never feels derivative ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 862,
+        "text": "an unsuccessful attempt at a movie ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 863,
+        "text": "sometimes confusing ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 864,
+        "text": "superlative ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 865,
+        "text": "buy the soundtrack ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 866,
+        "text": "'s sharply comic and surprisingly touching , ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 867,
+        "text": "a soap-opera quality twist in the last 20 minutes ... almost puts the kibosh on what is otherwise a sumptuous work of b-movie imagination . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 868,
+        "text": "to change hackneyed concepts when it comes to dreaming up romantic comedies ",
+        "response": "1",
+        "golden_standard": 0
+    },
+    {
+        "id": 869,
+        "text": "the folly of superficiality that is itself ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 870,
+        "text": "lumbering load ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 871,
+        "text": "a 95-minute commercial for nba properties ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 872,
+        "text": "though many of these guys are less than adorable ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 873,
+        "text": "peels layers from this character that may well not have existed on paper . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 874,
+        "text": "is deadly dull ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 875,
+        "text": "inferior ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 876,
+        "text": "big-hearted and frequently ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 877,
+        "text": "striking deep chords of sadness ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 878,
+        "text": "laughs aplenty ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 879,
+        "text": "schaeffer is n't in this film , which may be why it works as well as it does . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 880,
+        "text": "loud , ugly , irritating movie ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 881,
+        "text": "is impressive for the sights and sounds of the wondrous beats the world has to offer ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 882,
+        "text": "the scorpion king more than ably ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 883,
+        "text": "make a pretty good team ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 884,
+        "text": "lags badly in the middle and lurches between not-very-funny comedy , unconvincing dramatics and some last-minute action strongly reminiscent of run lola run ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 885,
+        "text": "does a great combination act as narrator , jewish grandmother and subject -- taking us through a film that is part biography , part entertainment and part history . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 886,
+        "text": "bill plympton , the animation master ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 887,
+        "text": "impossible task ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 888,
+        "text": "that in a good way ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 889,
+        "text": "a watch that makes time go faster rather than ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 890,
+        "text": "very best pictures ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 891,
+        "text": "lack their idol 's energy and passion for detail ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 892,
+        "text": "and church meetings ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 893,
+        "text": "than in creating an emotionally complex , dramatically satisfying heroine ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 894,
+        "text": "compassionate ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 895,
+        "text": "will find in these characters ' foibles a timeless and unique perspective ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 896,
+        "text": "hugely entertaining from start to finish , featuring a fall from grace that still leaves shockwaves ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 897,
+        "text": "an ebullient affection ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 898,
+        "text": "somehow snagged an oscar nomination ",
+        "response": "1",
+        "golden_standard": 0
+    },
+    {
+        "id": 899,
+        "text": "manages to show the gentle and humane side of middle eastern world politics ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 900,
+        "text": "` realistic ' ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 901,
+        "text": "nicely done ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 902,
+        "text": "a summer of good stuff ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 903,
+        "text": "the satire is just too easy to be genuinely satisfying . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 904,
+        "text": "sustains ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 905,
+        "text": "neither is it as smart ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 906,
+        "text": "fare , with enough creative energy and wit to entertain all ages ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 907,
+        "text": "the movie is powerful and provocative . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 908,
+        "text": "time literally stops on a dime in the tries-so-hard-to-be-cool `` clockstoppers , '' but that does n't mean it still wo n't feel like the longest 90 minutes of your movie-going life ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 909,
+        "text": "sharp edges and a deep vein of sadness ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 910,
+        "text": "those who do n't entirely ` get ' godard 's distinctive discourse will still come away with a sense of his reserved but existential poignancy . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 911,
+        "text": "not only are the film 's sopranos gags incredibly dated and unfunny , they also demonstrate how desperate the makers of this ` we 're - doing-it-for - the-cash ' sequel were . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 912,
+        "text": "'n safe as to often play like a milquetoast movie of the week blown up for the big screen ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 913,
+        "text": "like to skip but film buffs should get to know ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 914,
+        "text": "narrative discipline ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 915,
+        "text": "samuel l. jackson ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 916,
+        "text": "is this films reason for being . ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 917,
+        "text": "the old saying goes , because it 's true ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 918,
+        "text": "take any 12-year-old boy to see this picture ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 919,
+        "text": "aims for poetry and ends up sounding like satire ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 920,
+        "text": "come close to the level of intelligence and visual splendor that can be seen in other films ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 921,
+        "text": "embracing than monty ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 922,
+        "text": "is it hokey ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 923,
+        "text": "as assaults on america 's knee-jerk moral sanctimony ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 924,
+        "text": "that 's hardly any fun to watch ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 925,
+        "text": "get caught up in the thrill of the company 's astonishing growth ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 926,
+        "text": "it 's on par with the first one ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 927,
+        "text": "is moody , oozing , chilling and heart-warming all at once ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 928,
+        "text": "is an accuracy of observation in the work of the director , frank novak , that keeps the film grounded in an undeniable social realism ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 929,
+        "text": "is in the right place , his plea for democracy and civic action laudable ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 930,
+        "text": "above most of its ilk ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 931,
+        "text": "with spy kids 2 : the island of lost dreams , however , robert rodriguez adorns his family-film plot with an elegance and maturity that even most contemporary adult movies are lacking . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 932,
+        "text": "from kevin kline who unfortunately works with a two star script ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 933,
+        "text": "change watching such a character , especially when rendered in as flat and ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 934,
+        "text": "i do n't think so . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 935,
+        "text": "devotees of star trek ii : the wrath of khan will feel a nagging sense of deja vu , and the grandeur of the best next generation episodes is lacking ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 936,
+        "text": "is always a joy to watch , even when her material is not first-rate ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 937,
+        "text": "great to see this turd squashed under a truck , preferably a semi ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 938,
+        "text": "bile , and irony ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 939,
+        "text": "a faulty premise , ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 940,
+        "text": "haphazardness ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 941,
+        "text": "the plot grows thin soon , ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 942,
+        "text": "beloved-major ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 943,
+        "text": "by no means a great movie , but it is a refreshingly forthright one . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 944,
+        "text": "crossing-over mumbo jumbo ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 945,
+        "text": "virtually unwatchable ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 946,
+        "text": "its premise is smart , but ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 947,
+        "text": "was amused and entertained by the unfolding of bielinsky 's cleverly constructed scenario , and greatly impressed by the skill of the actors involved in the enterprise . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 948,
+        "text": "who seem bound and determined to duplicate bela lugosi 's now-cliched vampire accent ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 949,
+        "text": "light-hearted ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 950,
+        "text": "heavy with flabby rolls of typical toback machinations . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 951,
+        "text": "to show us a good time ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 952,
+        "text": "pitiful , slapdash disaster . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 953,
+        "text": "is one of the year 's best ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 954,
+        "text": "even witty ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 955,
+        "text": "a fierce dance ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 956,
+        "text": "crippled ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 957,
+        "text": "this piece of crap ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 958,
+        "text": "... the lady and the duke surprisingly manages never to grow boring ... which proves that rohmer still has a sense of his audience . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 959,
+        "text": "the most wondrous love story in years , it is a great film . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 960,
+        "text": "its story about a young chinese woman , ah na , who has come to new york city to replace past tragedy with the american dream ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 961,
+        "text": "particularly impressive ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 962,
+        "text": "in the process comes out looking like something wholly original ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 963,
+        "text": "submerging ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 964,
+        "text": "nearly as fresh or enjoyable ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 965,
+        "text": "miserable and smug ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 966,
+        "text": "my great pleasure ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 967,
+        "text": "it all unfolds predictably , and the adventures that happen along the way seem repetitive and designed to fill time , providing no real sense of suspense . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 968,
+        "text": "fascinating , dark thriller ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 969,
+        "text": "more of the same from taiwanese auteur tsai ming-liang , which is good news to anyone who 's fallen under the sweet , melancholy spell of this unique director 's previous films . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 970,
+        "text": "down the reality drain ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 971,
+        "text": "the only way to tolerate this insipid , brutally clueless film might be with a large dose of painkillers . ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 972,
+        "text": "a historic scandal ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 973,
+        "text": "that 's steeped in mystery and a ravishing , baroque beauty ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 974,
+        "text": "cool stuff packed into espn 's ultimate x. ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 975,
+        "text": "idea ( of middle-aged romance ) is not handled well and , except for the fine star performances ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 976,
+        "text": "their lamentations are pretty much self-centered ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 977,
+        "text": "a pretty decent kid-pleasing , ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 978,
+        "text": "of classic romantic comedy to which it aspires ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 979,
+        "text": ", bigelow demonstrates a breadth of vision and an attention to detail that propels her into the upper echelons of the directing world . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 980,
+        "text": "is the refreshingly unhibited enthusiasm that the people , in spite of clearly evident poverty and hardship , bring to their music ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 981,
+        "text": "would n't have taken the protagonists a full hour to determine that in order to kill a zombie you must shoot it in the head ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 982,
+        "text": "give a pretty good overall picture of the situation in laramie following the murder of matthew shepard ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 983,
+        "text": "the fine line between cheese and earnestness remarkably well ",
+        "response": "0",
+        "golden_standard": 1
+    },
+    {
+        "id": 984,
+        "text": "a documentary fails to live up to -- or offer any new insight into -- its chosen topic ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 985,
+        "text": "serious movie-goers embarking upon this journey ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 986,
+        "text": "insistent and repetitive ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 987,
+        "text": "nausea ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 988,
+        "text": "of survival wrapped in the heart-pounding suspense of a stylish psychological thriller ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 989,
+        "text": "no art ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 990,
+        "text": "seems to exist only for its climactic setpiece ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 991,
+        "text": "more silly than scary ",
+        "response": "1",
+        "golden_standard": 0
+    },
+    {
+        "id": 992,
+        "text": "'s funny . ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 993,
+        "text": "its execution and skill ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 994,
+        "text": "'s coherent , well shot , and tartly ",
+        "response": "1",
+        "golden_standard": 1
+    },
+    {
+        "id": 995,
+        "text": "you wish you were at home watching that movie instead of in the theater watching this one ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 996,
+        "text": "'s no point in extracting the bare bones of byatt 's plot for purposes of bland hollywood romance ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 997,
+        "text": "underdeveloped ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 998,
+        "text": "the jokes are flat ",
+        "response": "0",
+        "golden_standard": 0
+    },
+    {
+        "id": 999,
+        "text": "a heartening tale of small victories ",
+        "response": "1",
+        "golden_standard": 1
+    }
+]

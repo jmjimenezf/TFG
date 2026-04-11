@@ -1,0 +1,590 @@
+[
+    {
+        "id": 3,
+        "text": "remains utterly satisfied to remain the same throughout ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 11,
+        "text": "for those moviegoers who complain that ` they do n't make movies like they used to anymore ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 39,
+        "text": "sharply ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 82,
+        "text": ", like life , is n't much fun without the highs and lows ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 94,
+        "text": "it does n't follow the stale , standard , connect-the-dots storyline which has become commonplace in movies that explore the seamy underbelly of the criminal world ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 103,
+        "text": "hate to tear your eyes away from the images long enough to read the subtitles ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 106,
+        "text": "build some robots , haul 'em to the theater with you for the late show , and put on your own mystery science theatre 3000 tribute to what is almost certainly going to go down as the worst -- and only -- killer website movie of this or any other year ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 109,
+        "text": "would have liked it more if it had just gone that one step further ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 124,
+        "text": "bring tissues . ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 163,
+        "text": "most audacious , outrageous , ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 168,
+        "text": "eats , meddles , argues , laughs , kibbitzes and fights ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 177,
+        "text": "imax in short ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 182,
+        "text": "pokes , provokes , takes expressionistic license ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 203,
+        "text": "only thing to fear about `` fear dot com '' ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 207,
+        "text": "a résumé loaded with credits like `` girl in bar # 3 ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 212,
+        "text": "if it is n't entirely persuasive , it does give exposure to some talented performers ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 239,
+        "text": "this comic gem is as delightful as it is derivative . ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 243,
+        "text": "traditionally structured ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 266,
+        "text": "slick and manufactured to claim street credibility . ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 281,
+        "text": "an unorthodox little film noir organized crime story that includes one of the strangest ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 285,
+        "text": "an admittedly middling film ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 287,
+        "text": "the rock 's fighting skills are more in line with steven seagal ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 290,
+        "text": "that uses a sensational , real-life 19th-century crime as a metaphor for ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 311,
+        "text": "create a film that 's not merely about kicking undead *** ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 319,
+        "text": ", 84 minutes is short ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 331,
+        "text": "men ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 336,
+        "text": "bound to appeal to women looking for a howlingly trashy time ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 340,
+        "text": "seagal , who looks more like danny aiello these days ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 348,
+        "text": "you find yourself rooting for gai 's character to avoid the fate that has befallen every other carmen before her ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 351,
+        "text": "a deceptively casual ode ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 363,
+        "text": "a showdown ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 423,
+        "text": "complex story ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 440,
+        "text": "appealing character quirks to forgive that still serious problem ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 457,
+        "text": "felt performances across the board . ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 459,
+        "text": "has finally made a movie that is n't just offensive ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 469,
+        "text": "crackles ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 471,
+        "text": "high drama , disney-style ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 486,
+        "text": "the paranoid claustrophobia of a submarine movie with the unsettling spookiness of the supernatural ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 502,
+        "text": "the guy-in-a-dress genre ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 506,
+        "text": "war movies ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 609,
+        "text": "taps into the primal fears of young people trying to cope with the mysterious and brutal nature of adults ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 610,
+        "text": "lead a group of talented friends astray ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 614,
+        "text": "draws the audience into the unexplainable pain and eccentricities that are attached to the concept of loss ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 615,
+        "text": "spliced together bits and pieces of midnight run and 48 hours ( and , for that matter , shrek ) ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 618,
+        "text": "handles it in the most unexpected way ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 619,
+        "text": "those eternally devoted to the insanity of black will have an intermittently good time . ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 636,
+        "text": "feeling guilty for it ... then , miracle of miracles , the movie does a flip-flop . ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 637,
+        "text": "lewis ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 645,
+        "text": "it forces you to watch people doing unpleasant things to each other and themselves ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 649,
+        "text": "like an extended , open-ended poem than a traditionally structured story ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 668,
+        "text": "tell a story about the vietnam war before the pathology set in ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 681,
+        "text": "movies with the courage to go over the top and movies that do n't care about being stupid ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 686,
+        "text": "a meditation on faith and madness , frailty is blood-curdling stuff . ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 688,
+        "text": "other than its oscar-sweeping franchise predecessor ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 689,
+        "text": "almost everyone growing up believes their family must look like `` the addams family '' to everyone looking in ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 710,
+        "text": "the intimate , unguarded moments of folks who live in unusual homes -- ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 728,
+        "text": "cinema history as the only movie ever ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 738,
+        "text": "the slow parade of human frailty fascinates you ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 741,
+        "text": "that gradually sneaks up on the audience ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 751,
+        "text": "find a scathing portrayal of a powerful entity strangling the life out of the people who want to believe in it the most ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 765,
+        "text": "vein ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 770,
+        "text": "showing us well-thought stunts or a car chase that we have n't seen 10,000 times ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 779,
+        "text": "i have ever seen , constantly pulling the rug from underneath us , seeing things from new sides , plunging deeper , getting more intense . ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 801,
+        "text": "see the it ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 802,
+        "text": "tackles the difficult subject of grief and loss ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 804,
+        "text": "funny and sad ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 827,
+        "text": "should be poignant ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 837,
+        "text": "wo n't feel cheated by the high infidelity of unfaithful . ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 838,
+        "text": "haute ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 844,
+        "text": "passionate , tumultuous affair ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 849,
+        "text": "well to cram earplugs ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 851,
+        "text": "it 's the little nuances that perhaps had to escape from director mark romanek 's self-conscious scrutiny to happen , that finally get under your skin ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 877,
+        "text": "striking deep chords of sadness ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 889,
+        "text": "a watch that makes time go faster rather than ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 892,
+        "text": "and church meetings ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 898,
+        "text": "somehow snagged an oscar nomination ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 900,
+        "text": "` realistic ' ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 909,
+        "text": "sharp edges and a deep vein of sadness ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 914,
+        "text": "narrative discipline ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 943,
+        "text": "by no means a great movie , but it is a refreshingly forthright one . ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 946,
+        "text": "its premise is smart , but ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 963,
+        "text": "submerging ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 964,
+        "text": "nearly as fresh or enjoyable ",
+        "response": "0",
+        "golden_standard": 1,
+        "error_message": "Response does not match golden standard"
+    },
+    {
+        "id": 991,
+        "text": "more silly than scary ",
+        "response": "1",
+        "golden_standard": 0,
+        "error_message": "Response does not match golden standard"
+    }
+]
